@@ -1,0 +1,20 @@
+﻿@model Lab1.Models.JsonStudent
+@{
+    ViewBag.Title = "Update";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Update", "Student", FormMethod.Post))
+{
+    <p>@Html.TextBoxFor(x => x.Id, new { hidden= "hidden", required = "required"})</p>
+    <p>@Html.LabelFor(x => x.StudentItem.FirstName)</p>
+    <p>@Html.TextBoxFor(x => x.StudentItem.FirstName, new { placeholder= Model.StudentItem.FirstName,
+      required = "required", pattern = "^[a-zA-Z]+$" }) <em>only latin symbols</em></p>
+    <p>@Html.LabelFor(x => x.StudentItem.LastName)</p>
+    <p>@Html.TextBoxFor(x => x.StudentItem.LastName, new { placeholder = Model.StudentItem.LastName,
+      required = "required", pattern = "^[a-zA-Z]+$" }) <em>only latin symbols</em></p>
+    <p>
+        <input type="submit" value="Update" />
+        <input type="button" value="Cancel" onClick='location.href="Update"'>
+    </p>
+}

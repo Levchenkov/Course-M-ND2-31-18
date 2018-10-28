@@ -1,0 +1,22 @@
+﻿@model System.Collections.Generic.List<Lab1.Models.JsonStudent>
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Delete", "Student", FormMethod.Post))
+{
+    <p>Please select student to delete:</p>
+    <select name="Id" size="20" required style="width:100%">
+        @foreach (var elem in Model)
+        {
+            <option value="@elem.Id">@elem.StudentItem.FirstName @elem.StudentItem.LastName</option>
+        }
+    </select>
+    <p>
+        <input type="submit" value="Delete" />
+        <input type="button" value="Cancel" onClick='location.href="Index"'>
+    </p>
+}
+    <p><span style="color: lightgreen">@ViewBag.Message</span></p>
+

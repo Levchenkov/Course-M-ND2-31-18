@@ -1,0 +1,22 @@
+﻿@model Lab1.Models.JsonStudent
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Create", "Student", FormMethod.Post))
+{
+    <p>@Html.LabelFor(x => x.StudentItem.FirstName)</p>
+    <p>@Html.TextBoxFor(x => x.StudentItem.FirstName, new { required = "required", pattern = "^[a-zA-Z]+$" }) <em>only latin symbols</em></p>
+    <p>@Html.LabelFor(x => x.StudentItem.LastName)</p>
+    <p>@Html.TextBoxFor(x => x.StudentItem.LastName, new { required = "required", pattern = "^[a-zA-Z]+$" }) <em>only latin symbols</em></p>
+    <p>
+        <input type="submit" value="Add" />
+        <input type="button" value="Cancel" onClick='location.href="Index"'>
+    </p>
+}
+
+<p><span style="color: lightgreen">@ViewBag.Message</span></p>
+
+
+

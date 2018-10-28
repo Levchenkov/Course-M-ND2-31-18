@@ -1,0 +1,14 @@
+﻿@model System.Collections.Generic.List<Lab1.Models.JsonStudent>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>Students:</p>
+<select disabled size="20" style="width:100%">
+    @foreach (var elem in Model)
+    {
+        <option>@elem.StudentItem.FirstName @elem.StudentItem.LastName</option>
+    }
+</select>
