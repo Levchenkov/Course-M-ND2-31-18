@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Web;
 using System.Web.Mvc;
 using Lab1.Models;
 using Newtonsoft.Json;
@@ -9,7 +10,12 @@ namespace Lab1.Controllers
 {
     public class HomeController : Controller
     {
-        private StudBase Db = new StudBase();
+        private readonly StudBase Db;
+
+        public HomeController()
+        {
+            Db = new StudBase();
+        }
 
         public ActionResult Index()
         {
@@ -35,7 +41,7 @@ namespace Lab1.Controllers
 
         [HttpPost]
         public ActionResult Show(int id)
-        {   
+        {
             return View("ShowPost", Db.ShowStudent(id));
         }
 
