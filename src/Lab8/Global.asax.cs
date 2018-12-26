@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FluentValidation.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -13,6 +14,7 @@ namespace Lab8
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            FluentValidationModelValidatorProvider.Configure();
         }
     }
 }
