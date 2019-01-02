@@ -28,9 +28,6 @@ namespace Lab4.Infrastructure
                 .ForMember(d => d.AuthorId, o => o.MapFrom(s => s.AuthorId))
                 .ForAllOtherMembers(o => o.Ignore());
 
-            CreateMap<Task<TweetViewModel>, Task<TweetEntity>>();
-            CreateMap<Task<TweetEntity>, Task<TweetViewModel>>();
-
             CreateMap<PersonViewModel, PersonEntity>()
                 .ForMember(d => d.Id, o => o.MapFrom(s => s.Id))
                 .ForMember(d => d.Email, o => o.MapFrom(s => s.Email))

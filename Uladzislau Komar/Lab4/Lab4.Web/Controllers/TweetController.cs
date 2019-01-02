@@ -27,6 +27,12 @@ namespace Lab4.Web.Controllers
         public ActionResult Index()
         {
             var model = service.GetTweetList();
+            var user = personService
+                       .GetCurrentUserAsync(HttpContext).Result;
+            if(user != null)
+            {
+                ViewData["userId"] = user.Id;
+            }
             return View(model);
         }
 
@@ -52,30 +58,6 @@ namespace Lab4.Web.Controllers
                 model.AuthorId = user.Id;
                 model.Author = user;
                 service.Create(model);
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: Tweet/Delete/5
-        [Authorize]
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: Tweet/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                // TODO: Add delete logic here
-
                 return RedirectToAction(nameof(Index));
             }
             catch
