@@ -1,0 +1,120 @@
+﻿@model Lab8.Models.PaymentViewModel
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<h4>PaymentViewModel</h4>
+<hr />
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Index">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="FirstName" class="control-label"></label>
+				<input asp-for="FirstName" id="firstName" class="form-control" />
+				<span asp-validation-for="FirstName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="MiddleName" class="control-label"></label>
+				<input asp-for="MiddleName" class="form-control" />
+				<span asp-validation-for="MiddleName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="LastName" class="control-label"></label>
+				<input asp-for="LastName" class="form-control" />
+				<span asp-validation-for="LastName" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Address" class="control-label"></label>
+				<input asp-for="Address" class="form-control" />
+				<span asp-validation-for="Address" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="City" class="control-label"></label>
+				<input asp-for="City" class="form-control" />
+				<span asp-validation-for="City" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Country" class="control-label"></label>
+				<input asp-for="Country" class="form-control" />
+				<span asp-validation-for="Country" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="PostCode" class="control-label"></label>
+				<input asp-for="PostCode" class="form-control" />
+				<span asp-validation-for="PostCode" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Email" class="control-label"></label>
+				<input asp-for="Email" class="form-control" />
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Amount" class="control-label"></label>
+				<input asp-for="Amount" class="form-control" />
+				<span asp-validation-for="Amount" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="Description" class="control-label"></label>
+				<input asp-for="Description" class="form-control" />
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="CreditCardNumber" class="control-label"></label>
+				<input asp-for="CreditCardNumber" class="form-control" />
+				<span asp-validation-for="CreditCardNumber" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ExpirationMonth" class="control-label"></label>
+				<input asp-for="ExpirationMonth" class="form-control" />
+				<span asp-validation-for="ExpirationMonth" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="ExpirationYear" class="control-label"></label>
+				<input asp-for="ExpirationYear" class="form-control" />
+				<span asp-validation-for="ExpirationYear" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="SecurityCode" class="control-label"></label>
+				<input asp-for="SecurityCode" class="form-control" />
+				<span asp-validation-for="SecurityCode" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Create" class="btn btn-default" />
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"
+			    asp-fallback-src="~/lib/jquery-validation/dist/jquery.validate.min.js"
+			    asp-fallback-test="window.jQuery && window.jQuery.validator">
+	</script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"
+			    asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+			    asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive">
+	</script>
+
+	@*<script>
+			$.validator.unobtrusive.adapters.add(
+				"firstName",
+				["firstnameproperty", "middlenameproperty"],
+				function (options) {
+					options.rules["firstName"] = options.params;
+					options.messages["firstName"] = options.message;
+				})
+			$.validator.addMethod("firstName", function (value, element, params) {
+				var firstnameFieldName = params["firstnameproperty"];
+				var middlenameFieldName = params["middlenameproperty"];
+				var firstname = $("input[name='" + firstnameFieldName + "']").val();
+				var middlename = $("input[name='" + middlenameFieldName + "']").val();
+				return firstname.length == middlename.length;
+			})
+		</script>*@
+}
