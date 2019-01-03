@@ -1,0 +1,72 @@
+﻿@model JWT.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Authorize</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <h4>User</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <div id="auth">
+                <input type="button" name="name" value="register" id="register" />
+                @{
+                    using (var form = Html.BeginForm("Token", "Authorize", FormMethod.Post))
+                    {
+
+                        <div class="form-group">
+                            <label asp-for="Login" class="control-label"></label>
+                            @Html.LabelFor(m => m.Login)
+                            @Html.EditorFor(m => m.Login, new { htmlAttributes = new { @class = "form-control login" } })
+                            <span asp-validation-for="Login" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Password" class="control-label"></label>
+                            @Html.LabelFor(m => m.Password)
+                            @Html.PasswordFor(m => m.Password, new { htmlAttributes = new { @class = "form-control password" } })
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input id="authForm" type="submit" value="Sign in" class="btn btn-default" />
+                        </div>
+                    }
+                }
+            </div>
+            <div id="users">
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <input id="showUser" type="button" name="name" value="Show User" />
+    </div>
+    <div>
+        <input id="signOff" type="button" name="name" value="SignOff" />
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+
+
+    <script src="~/js/autorization.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

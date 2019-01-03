@@ -34,7 +34,20 @@ namespace Validation
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1).AddFluentValidation();
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddFluentValidation(cfg =>
+            {
+                cfg.ConfigureClientsideValidation(x =>
+                {
+                    x.Add(typeof(CreditCardValidator), (context, rule, validator) => new CreditCardPropertyValidator(rule, validator));
+                    x.Add(typeof(ExpirationYearValidator), (context, rule, validator) => new ExpirationYearProperyValidator(rule, validator));
+                    x.Add(typeof(ExpirationMonthValidator), (context, rule, validator) => new ExpirationMonthPropertyValidator(rule, validator));
+                    x.Add(typeof(SecurityCodeValidator), (context, rule, validator) => new SecurityCodePropertyValidator(rule, validator));
+                    x.Add(typeof(AmountValidator), (context, rule, validator) => new AmountPropertyValidator(rule, validator));
+                    x.Add(typeof(PostCodeValidator), (context, rule, validator) => new PostCodePropertyValidator(rule, validator));
+                    });
+                cfg.RegisterValidatorsFromAssemblyContaining<Startup>();
+            });
             services.AddTransient<IValidator<Payment>, PaymentValidator>();
         }
 
