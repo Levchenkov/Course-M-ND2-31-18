@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.SignalR;
+﻿using Lab4.Domain.Contracts.Services;
+using Lab4.Domain.Contracts.ViewModels;
+using Microsoft.AspNetCore.SignalR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +10,30 @@ namespace Lab4.Web.Hubs
 {
     public class TweetHub : Hub
     {
-        public async Task Send(string user, string content, string created)
+        private readonly ITweetService service;
+
+        public TweetHub(ITweetService service)
         {
-            await this.Clients.All.SendAsync("Send", user, content, created);
+            this.service = service;
+        }
+
+        public async Task Send(string userId, string user, string content, string created)
+        {
+            try
+            {
+                var model = new TweetViewModel
+                {
+                    AuthorId = int.Parse(userId),
+                    Content = content,
+                    Created = DateTime.Parse(created)
+                };
+                service.Create(model);
+                await this.Clients.All.SendAsync("Send", userId, user, content, created);
+            }
+            catch (Exception exception)
+            {
+
+            }
         }
     }
 }

@@ -1,0 +1,35 @@
+﻿@{
+	ViewData["Title"] = "Croco";
+}
+<div style="display: flex; justify-content: space-around">
+	<form id="connect-form" action="#" style="margin-top: 50px">
+		<input class="form-control" type="text" id="name" placeholder="Your nickname">
+		<button class="btn btn-primary" id="connect-button" type="submit">Connect</button>
+	</form>
+	<div class="container-fluid">
+		<div class="row" id="SecretWord" style="display: none"></div>
+		<div class="row">
+			<canvas id="myCanvas" style="background-color: #eee; border: 1px solid #ccc; margin-top: 10px; margin-bottom: 10px; display: none; align-self: center;"></canvas>
+		</div>
+		<div class="row">
+			<div class="row" id="chat" style="display: none">
+				<form id="send-form" action="#" style="margin-top: 30px;">
+					<div class="col-md-8">
+						<input type="text" class="form-control" id="message-textbox">
+					</div>
+					<div class="col-md-4">
+						<button class="btn btn-primary" id="send-button" type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="row">
+				<ul id="messages-list"></ul>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="~/js/signalr.min.js"></script>
+	<script src="~/js/croco.js"></script>
+</div> 

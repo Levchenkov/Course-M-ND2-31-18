@@ -7,6 +7,7 @@
 }
 
 <div class="container-fluid">
+	<div class="hidden" id="userId">@ViewData["userId"]</div>
 	<div class="row">
 		<div class="col-md-4 col-sm-6" id="Profile" style="border: 3px solid skyblue">
 			@if (User.Identity.IsAuthenticated)
@@ -14,7 +15,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<img src="~/images/750.gif" width="60" height="40" alt="avatar" />
-						<strong>@User.Identity.Name</strong>
+						<strong><span id="userName">@User.Identity.Name</span></strong>
 						<a asp-area="" asp-controller="Account" asp-action="LogOut">(Log out)</a>
 					</div>
 					<div class="row">
@@ -37,7 +38,6 @@
 		</div>
 		@if (User.Identity.IsAuthenticated)
 		{
-
 			<partial name="Create" model="new TweetViewModel()" />
 		}
 		else
@@ -48,32 +48,22 @@
 		}
 	</div>
 	<div class="row">
-		<div class="col-md-4" id="Info">
+		<div class="col-md-4" id="info">
 			Lab4-5-6 Uladzislau Komar
 		</div>
-		<div class="col-md-8 " id="tweetList">
-			@foreach (var item in Model)
-			{
-				<form>
-					<div class="container-fluid" style="border: 1px solid skyblue">
-						<div class="row" id="displayname">
-							<div class="col-md-2" id="name">
-								@Html.DisplayFor(modelItem => item.Author.UserName)
-							</div>
-							<div class="col-md-2">tweets at </div>
-							<div class="col-md-4" id="created">
-								@Html.DisplayFor(modelItem => item.Created)
-							</div>
-						</div>
-						<div class="row" id="content">
-							@Html.DisplayFor(modelItem => item.Content)
-						</div>
+		<form>
+			<div class="col-md-8" id="tweetList">
+				@foreach (var item in Model)
+				{
+					<div class="row" id="message" style="border: 1px solid skyblue">
+						@Html.DisplayFor(modelItem => item.Author.UserName) (@Html.DisplayFor(modelItem => item.Created)): @Html.DisplayFor(modelItem => item.Content)
 					</div>
-				</form>
-			}
-		</div>
+				}
+			</div>
+		</form>
 	</div>
 </div>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="~/js/signalr.js"></script>
 <script src="~/js/tweets.js"></script>
-

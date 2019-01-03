@@ -50,7 +50,7 @@ namespace Lab4.Domain.Implementation
 
         public List<TweetViewModel> GetTweetList()
         {
-            var entityList = repository.Read().Take(20).OrderByDescending(comparer => comparer.Created).ToList();
+            var entityList = repository.Read().Take(20).ToList();
             var modelList = new List<TweetViewModel>();
             foreach (var entity in entityList)
             {
