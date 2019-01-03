@@ -1,0 +1,35 @@
+﻿@model Lab4.Web.Models.PostViewModel.PostViewModel
+
+@{
+    ViewData["Title"] = "UpdatePost";
+}
+
+<h2>UpdatePost</h2>
+
+<h4>PostViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdatePost">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Id"  type ="hidden" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+              <div class="form-group">
+                @Html.TextArea("Content", Model.Content, new { @class = "form-control" })
+                  </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="GetPosts">Back to Posts</a>
+    </div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }

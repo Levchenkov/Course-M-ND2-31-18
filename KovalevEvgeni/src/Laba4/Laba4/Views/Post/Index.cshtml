@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Laba4.BusinessLogicLayer.DataTransferObject.PostViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<p>
+    @Html.ActionLink("Новое сообщение", "Create", null, new { @class = "btn btn-outline-primary" })
+</p>
+
+@foreach (var item in Model) {
+
+<div class="card border-primary mb-3">
+    <div class="card-header">@item.TitlePost</div>
+    <div class="card-body text-primary">
+        <p class="card-text">@item.Content</p>
+    </div>
+    <div class="card-footer">
+        Автор: <strong>@item.Author</strong> <span class="post-time-create">(@item.DateCreate)</span>
+    </div>
+
+</div>
+
+}
+

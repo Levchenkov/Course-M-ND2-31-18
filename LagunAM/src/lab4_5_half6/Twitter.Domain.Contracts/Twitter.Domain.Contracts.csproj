@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1" />
+    <PackageReference Include="MailKit" Version="2.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Twitter.Data.Contracts\Twitter.Data.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

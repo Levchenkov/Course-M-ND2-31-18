@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <li class="nav-item active">
+        <span class="badge badge-pill badge-dark">
+            @Html.ActionLink("Sign out", "SignOut", "Account", new { }, new { @class = "nav-link" })
+        </span>
+    </li>
+}
+else
+{
+    <li class="nav-item active pr-2">
+        <span class="badge badge-pill badge-dark">@Html.ActionLink("Register", "Register", "Account", new { }, new { @class = "nav-link" })</span>
+    </li>
+    <li class="nav-item active">
+        <span class="badge badge-pill badge-dark"> @Html.ActionLink("Log in", "Login", "Account", new { }, new { @class = "nav-link" })</span>
+    </li>
+}

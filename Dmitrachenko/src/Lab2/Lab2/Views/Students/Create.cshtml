@@ -1,0 +1,49 @@
+﻿@model BusinessLogicLayer.DataModel.StudentDataModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <br />
+    @if (ViewBag.CurrentStudent != null)
+    {
+        <h4>Текущий пользователь: @ViewBag.CurrentStudent.FirstName  @ViewBag.CurrentStudent.LastName</h4>
+    }
+    <br />
+    <h2>Новая запись</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group" style="vertical-align:central">
+                @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10" style="vertical-align:central">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group" style="vertical-align:central">
+                @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10" style="vertical-align:central">
+                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.LastName)
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Добавить" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <br />
+            <h4>@Html.ActionLink("Назад к списку студентов", "Index", new { area = "", controller = "Students", id = ViewBag.CurrentStudent.Id }, new { @class = "btn btn-info" })</h4>
+        </div>
+    }
+</div>

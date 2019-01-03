@@ -1,0 +1,58 @@
+﻿<nav class="navbar navbar-dark navbar-expand-md bg-light fixed-top justify-content-between">
+    <div class="container-fluid">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                @if (Request.IsAuthenticated)
+                {
+                    <li class="nav-item active">
+                        <button type="button" class="btn btn-light py-0" aria-label="Left Align">
+                            <span class="fa fa-2x fa-home navbar-dark"></span>
+                            @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand text-dark" })
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light py-0" aria-label="Left Align">
+                            <span class="fa fa-2x fa-bell-o navbar-dark"></span>
+                            @Html.ActionLink("Notifications", "Index", "Home", new { area = "" }, new { @class = "navbar-brand text-dark" })
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-light py-0" aria-label="Left Align">
+                            <span class="fa fa-2x fa-envelope-o navbar-dark"></span>
+                            @Html.ActionLink("Messages", "Index", "Home", new { area = "" }, new { @class = "navbar-brand text-dark" })
+                        </button>
+                    </li>
+                }
+            </ul>
+        </div>
+        <a href="/" class="navbar-brand text-dark mx-auto d-block text-center order-0 order-md-1 w-25 py-0">
+            <span class="fa fa-2x fa-themeisle navbar-dark"></span>
+        </a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            @if (Request.IsAuthenticated)
+            {
+                <form class="form-inline mt-2 mt-md-0 pr-1 form-rounded">
+                    <div class="input-group">
+                        <input type="text" class="form-control form-rounded" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                <span class="fa fa-1x fa-search navbar-dark"></span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <img src="~/Content/Images/img0.jpg" style="width: 45px; height: 45px"
+                         class="img-thumbnail rounded-circle border-0 p-0 float-left" alt="Cinque Terre">
+                </div>
+            }
+            <ul class="nav navbar-nav m-auto">
+                @Html.Partial("_LoginPartial")
+            </ul>
+        </div>
+    </div>
+</nav>
+

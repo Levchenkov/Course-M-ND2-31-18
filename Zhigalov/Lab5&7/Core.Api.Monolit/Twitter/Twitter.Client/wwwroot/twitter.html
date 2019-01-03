@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:49720/twitter.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:49720/twitter.html">Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost:49720/twitter.html">Messages</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Twitter" aria-label="Search">
+                    <button class="btn btn-outline-light mr-sm-2" type="submit">Search</button>
+                </form>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-light" id="myInput" data-toggle="modal" data-target="#myModal">
+                    Tweet
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalCenterTitle">Compose new Tweet</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="newTweet">Compose new Tweet</label>
+                                        <textarea class="form-control" id="newTweet" rows="3"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" id="submitTweet">Tweet</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="mt-2 col-sm-3">
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <button type="button" class="btn btn-outline-light" id="logOut">Log Out</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-subtitle mb-4">Trends for you</h5>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle text-muted">#Twitterist</h6>
+                            <h7 class="card-subtitle text-muted">Tweets count</h7>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle text-muted">#Twitterast</h6>
+                            <h7 class="card-subtitle text-muted">Tweets count</h7>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle text-muted">#Twitterastka</h6>
+                            <h7 class="card-subtitle text-muted">Tweets count</h7>
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle text-muted">#Twitteristka</h6>
+                            <h7 class="card-subtitle text-muted">Tweets count</h7>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-2 col-sm-6">
+                <div class="mt-2 list-group" id="tweets">
+                </div>
+            </div>
+            <div class="mt-2 col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-subtitle mb-4">Who to follow</h5>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle mb-2">GUVD_Minsk</h6>
+                            <button type="button" class="btn btn-outline-primary">Follow</button>
+                            <hr />
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle mb-2">Onliner.by</h6>
+                            <button type="button" class="btn btn-outline-primary">Follow</button>
+                            <hr />
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle mb-2">TUT.by</h6>
+                            <button type="button" class="btn btn-outline-primary">Follow</button>
+                            <hr />
+                        </div>
+                        <div class="mb-4">
+                            <h6 class="card-subtitle mb-2">dev.by</h6>
+                            <button type="button" class="btn btn-outline-primary">Follow</button>
+                            <hr />
+                        </div>
+                        <button type="button" class="btn btn-link">Connect other address</button>
+                    </div>
+                </div>
+            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="js/twitter.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </div>
+</body>
+</html>

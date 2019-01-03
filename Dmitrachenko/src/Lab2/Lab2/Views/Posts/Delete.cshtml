@@ -1,0 +1,52 @@
+﻿@model BusinessLogicLayer.DataModel.PostDataModel
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <br />
+    @if (ViewBag.CurrentStudent != null)
+    {
+        <h4>Текущий пользователь: @ViewBag.CurrentStudent.FirstName  @ViewBag.CurrentStudent.LastName</h4>
+    }
+    <br />
+    <h2>Удаление записи</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <div class="form-group">
+                <table class="table table-striped">
+                    <tr>
+                        <td style="color:darkblue">@Html.DisplayNameFor(model => model.Id)</td>
+                        <td style="color:red">@Html.DisplayFor(model => model.Id)</td>
+                    </tr>
+                    <tr>
+                        <td style="color:darkblue">@Html.DisplayNameFor(model => model.Content)</td>
+                        <td style="color:red">@Html.DisplayFor(model => model.Content)</td>
+                    </tr>
+                    <tr>
+                        <td style="color:darkblue">@Html.DisplayNameFor(model => model.Author)</td>
+                        <td style="color:red">@Html.DisplayFor(model => model.Author.FirstName)  @Html.DisplayFor(model => model.Author.LastName)</td>
+                    </tr>
+                    <tr>
+                        <td style="color:darkblue">@Html.DisplayNameFor(model => model.Created)</td>
+                        <td style="color:red">@Html.DisplayFor(model => model.Created)</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Удалить" class="btn btn-danger" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <br />
+            <h4>@Html.ActionLink("Назад к списку постов", "Index", new { area = "", controller = "Posts", id = ViewBag.CurrentStudent.Id }, new { @class = "btn btn-info" })</h4>
+        </div>
+    }
+</div>
+

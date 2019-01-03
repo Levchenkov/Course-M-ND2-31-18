@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="MailKit" Version="2.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab4.Data.Contracts\Lab4.Data.Contracts.csproj" />
+    <ProjectReference Include="..\Lab4.Domain.Contracts\Lab4.Domain.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

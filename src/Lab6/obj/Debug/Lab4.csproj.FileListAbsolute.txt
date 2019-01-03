@@ -1,0 +1,1103 @@
+D:\Labs\Lab4\bin\Lab4.dll.config
+D:\Labs\Lab4\bin\Lab4.dll
+D:\Labs\Lab4\bin\Lab4.pdb
+D:\Labs\Lab4\bin\roslyn\csc.exe
+D:\Labs\Lab4\bin\roslyn\csc.exe.config
+D:\Labs\Lab4\bin\roslyn\csc.rsp
+D:\Labs\Lab4\bin\roslyn\csi.exe
+D:\Labs\Lab4\bin\roslyn\csi.rsp
+D:\Labs\Lab4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Labs\Lab4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Labs\Lab4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Labs\Lab4\bin\roslyn\System.AppContext.dll
+D:\Labs\Lab4\bin\roslyn\System.Collections.Immutable.dll
+D:\Labs\Lab4\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Labs\Lab4\bin\roslyn\System.IO.FileSystem.dll
+D:\Labs\Lab4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Labs\Lab4\bin\roslyn\System.Reflection.Metadata.dll
+D:\Labs\Lab4\bin\roslyn\vbc.exe
+D:\Labs\Lab4\bin\roslyn\vbc.exe.config
+D:\Labs\Lab4\bin\roslyn\vbc.rsp
+D:\Labs\Lab4\bin\roslyn\VBCSCompiler.exe
+D:\Labs\Lab4\bin\roslyn\VBCSCompiler.exe.config
+D:\Labs\Lab4\bin\Antlr3.Runtime.dll
+D:\Labs\Lab4\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Labs\Lab4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Labs\Lab4\bin\Microsoft.Web.Infrastructure.dll
+D:\Labs\Lab4\bin\Newtonsoft.Json.dll
+D:\Labs\Lab4\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Labs\Lab4\bin\System.Web.Helpers.dll
+D:\Labs\Lab4\bin\System.Web.Mvc.dll
+D:\Labs\Lab4\bin\System.Web.Optimization.dll
+D:\Labs\Lab4\bin\System.Web.Razor.dll
+D:\Labs\Lab4\bin\System.Web.WebPages.Deployment.dll
+D:\Labs\Lab4\bin\System.Web.WebPages.dll
+D:\Labs\Lab4\bin\System.Web.WebPages.Razor.dll
+D:\Labs\Lab4\bin\WebGrease.dll
+D:\Labs\Lab4\bin\System.Web.Helpers.xml
+D:\Labs\Lab4\bin\System.Web.Mvc.xml
+D:\Labs\Lab4\bin\System.Web.Optimization.xml
+D:\Labs\Lab4\bin\System.Web.Razor.xml
+D:\Labs\Lab4\bin\System.Web.WebPages.xml
+D:\Labs\Lab4\bin\System.Web.WebPages.Deployment.xml
+D:\Labs\Lab4\bin\System.Web.WebPages.Razor.xml
+D:\Labs\Lab4\bin\Newtonsoft.Json.xml
+D:\Labs\Lab4\bin\Antlr3.Runtime.pdb
+D:\Labs\Lab4\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Labs\Lab4\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Labs\Lab4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Labs\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+D:\Labs\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\Labs\Lab4\obj\Debug\Lab4.csproj.CopyComplete
+D:\Labs\Lab4\obj\Debug\Lab4.dll
+D:\Labs\Lab4\obj\Debug\Lab4.pdb
+D:\Labs\Lab4\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Labs\Lab4\bin\Microsoft.Win32.Primitives.dll
+D:\Labs\Lab4\bin\netstandard.dll
+D:\Labs\Lab4\bin\System.AppContext.dll
+D:\Labs\Lab4\bin\System.Collections.Concurrent.dll
+D:\Labs\Lab4\bin\System.Collections.dll
+D:\Labs\Lab4\bin\System.Collections.NonGeneric.dll
+D:\Labs\Lab4\bin\System.Collections.Specialized.dll
+D:\Labs\Lab4\bin\System.ComponentModel.dll
+D:\Labs\Lab4\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Labs\Lab4\bin\System.ComponentModel.Primitives.dll
+D:\Labs\Lab4\bin\System.ComponentModel.TypeConverter.dll
+D:\Labs\Lab4\bin\System.Console.dll
+D:\Labs\Lab4\bin\System.Data.Common.dll
+D:\Labs\Lab4\bin\System.Diagnostics.Contracts.dll
+D:\Labs\Lab4\bin\System.Diagnostics.Debug.dll
+D:\Labs\Lab4\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Labs\Lab4\bin\System.Diagnostics.Process.dll
+D:\Labs\Lab4\bin\System.Diagnostics.StackTrace.dll
+D:\Labs\Lab4\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Labs\Lab4\bin\System.Diagnostics.Tools.dll
+D:\Labs\Lab4\bin\System.Diagnostics.TraceSource.dll
+D:\Labs\Lab4\bin\System.Diagnostics.Tracing.dll
+D:\Labs\Lab4\bin\System.Drawing.Primitives.dll
+D:\Labs\Lab4\bin\System.Dynamic.Runtime.dll
+D:\Labs\Lab4\bin\System.Globalization.Calendars.dll
+D:\Labs\Lab4\bin\System.Globalization.dll
+D:\Labs\Lab4\bin\System.Globalization.Extensions.dll
+D:\Labs\Lab4\bin\System.IO.Compression.dll
+D:\Labs\Lab4\bin\System.IO.Compression.ZipFile.dll
+D:\Labs\Lab4\bin\System.IO.dll
+D:\Labs\Lab4\bin\System.IO.FileSystem.dll
+D:\Labs\Lab4\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Labs\Lab4\bin\System.IO.FileSystem.Primitives.dll
+D:\Labs\Lab4\bin\System.IO.FileSystem.Watcher.dll
+D:\Labs\Lab4\bin\System.IO.IsolatedStorage.dll
+D:\Labs\Lab4\bin\System.IO.MemoryMappedFiles.dll
+D:\Labs\Lab4\bin\System.IO.Pipes.dll
+D:\Labs\Lab4\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Labs\Lab4\bin\System.Linq.dll
+D:\Labs\Lab4\bin\System.Linq.Expressions.dll
+D:\Labs\Lab4\bin\System.Linq.Parallel.dll
+D:\Labs\Lab4\bin\System.Linq.Queryable.dll
+D:\Labs\Lab4\bin\System.Net.Http.dll
+D:\Labs\Lab4\bin\System.Net.NameResolution.dll
+D:\Labs\Lab4\bin\System.Net.NetworkInformation.dll
+D:\Labs\Lab4\bin\System.Net.Ping.dll
+D:\Labs\Lab4\bin\System.Net.Primitives.dll
+D:\Labs\Lab4\bin\System.Net.Requests.dll
+D:\Labs\Lab4\bin\System.Net.Security.dll
+D:\Labs\Lab4\bin\System.Net.Sockets.dll
+D:\Labs\Lab4\bin\System.Net.WebHeaderCollection.dll
+D:\Labs\Lab4\bin\System.Net.WebSockets.Client.dll
+D:\Labs\Lab4\bin\System.Net.WebSockets.dll
+D:\Labs\Lab4\bin\System.ObjectModel.dll
+D:\Labs\Lab4\bin\System.Reflection.dll
+D:\Labs\Lab4\bin\System.Reflection.Extensions.dll
+D:\Labs\Lab4\bin\System.Reflection.Primitives.dll
+D:\Labs\Lab4\bin\System.Resources.Reader.dll
+D:\Labs\Lab4\bin\System.Resources.ResourceManager.dll
+D:\Labs\Lab4\bin\System.Resources.Writer.dll
+D:\Labs\Lab4\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Labs\Lab4\bin\System.Runtime.dll
+D:\Labs\Lab4\bin\System.Runtime.Extensions.dll
+D:\Labs\Lab4\bin\System.Runtime.Handles.dll
+D:\Labs\Lab4\bin\System.Runtime.InteropServices.dll
+D:\Labs\Lab4\bin\System.Runtime.Numerics.dll
+D:\Labs\Lab4\bin\System.Runtime.Serialization.Formatters.dll
+D:\Labs\Lab4\bin\System.Runtime.Serialization.Json.dll
+D:\Labs\Lab4\bin\System.Runtime.Serialization.Primitives.dll
+D:\Labs\Lab4\bin\System.Runtime.Serialization.Xml.dll
+D:\Labs\Lab4\bin\System.Security.Claims.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.Algorithms.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.Csp.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.Encoding.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.Primitives.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Labs\Lab4\bin\System.Security.Principal.dll
+D:\Labs\Lab4\bin\System.Security.SecureString.dll
+D:\Labs\Lab4\bin\System.Text.Encoding.dll
+D:\Labs\Lab4\bin\System.Text.Encoding.Extensions.dll
+D:\Labs\Lab4\bin\System.Text.RegularExpressions.dll
+D:\Labs\Lab4\bin\System.Threading.dll
+D:\Labs\Lab4\bin\System.Threading.Overlapped.dll
+D:\Labs\Lab4\bin\System.Threading.Tasks.dll
+D:\Labs\Lab4\bin\System.Threading.Tasks.Parallel.dll
+D:\Labs\Lab4\bin\System.Threading.Thread.dll
+D:\Labs\Lab4\bin\System.Threading.ThreadPool.dll
+D:\Labs\Lab4\bin\System.Threading.Timer.dll
+D:\Labs\Lab4\bin\System.ValueTuple.dll
+D:\Labs\Lab4\bin\System.Xml.ReaderWriter.dll
+D:\Labs\Lab4\bin\System.Xml.XDocument.dll
+D:\Labs\Lab4\bin\System.Xml.XmlDocument.dll
+D:\Labs\Lab4\bin\System.Xml.XmlSerializer.dll
+D:\Labs\Lab4\bin\System.Xml.XPath.dll
+D:\Labs\Lab4\bin\System.Xml.XPath.XDocument.dll
+D:\Labs\Lab4\bin\EntityFramework.dll
+D:\Labs\Lab4\bin\EntityFramework.SqlServer.dll
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Identity.dll
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.dll
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Identity.Core.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Identity.Stores.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Logging.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Options.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.Primitives.dll
+D:\Labs\Lab4\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Labs\Lab4\bin\Microsoft.Net.Http.Headers.dll
+D:\Labs\Lab4\bin\Microsoft.Owin.dll
+D:\Labs\Lab4\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.dll
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Labs\Lab4\bin\Microsoft.Win32.Registry.dll
+D:\Labs\Lab4\bin\Owin.dll
+D:\Labs\Lab4\bin\Remotion.Linq.dll
+D:\Labs\Lab4\bin\System.Buffers.dll
+D:\Labs\Lab4\bin\System.Collections.Immutable.dll
+D:\Labs\Lab4\bin\System.ComponentModel.Annotations.dll
+D:\Labs\Lab4\bin\System.Interactive.Async.dll
+D:\Labs\Lab4\bin\System.Memory.dll
+D:\Labs\Lab4\bin\System.Numerics.Vectors.dll
+D:\Labs\Lab4\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Labs\Lab4\bin\System.Security.AccessControl.dll
+D:\Labs\Lab4\bin\System.Security.Cryptography.Xml.dll
+D:\Labs\Lab4\bin\System.Security.Permissions.dll
+D:\Labs\Lab4\bin\System.Security.Principal.Windows.dll
+D:\Labs\Lab4\bin\System.Text.Encodings.Web.dll
+D:\Labs\Lab4\bin\EntityFramework.xml
+D:\Labs\Lab4\bin\EntityFramework.SqlServer.xml
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Labs\Lab4\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.Identity.xml
+D:\Labs\Lab4\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.xml
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Identity.Core.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Identity.Stores.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Logging.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Options.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.Primitives.xml
+D:\Labs\Lab4\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Labs\Lab4\bin\Microsoft.Net.Http.Headers.xml
+D:\Labs\Lab4\bin\Microsoft.Owin.xml
+D:\Labs\Lab4\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.xml
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Labs\Lab4\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Labs\Lab4\bin\Remotion.Linq.xml
+D:\Labs\Lab4\bin\System.Buffers.xml
+D:\Labs\Lab4\bin\System.Collections.Immutable.xml
+D:\Labs\Lab4\bin\System.Interactive.Async.xml
+D:\Labs\Lab4\bin\System.Memory.xml
+D:\Labs\Lab4\bin\System.Numerics.Vectors.xml
+D:\Labs\Lab4\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Labs\Lab4\bin\System.Text.Encodings.Web.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Lab4.dll.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Lab4.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Lab4.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\csc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\csc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\csc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\csi.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\csi.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.AppContext.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\vbc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\vbc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\vbc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\VBCSCompiler.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Win32.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\netstandard.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.AppContext.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.Concurrent.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.NonGeneric.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.Specialized.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ComponentModel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ComponentModel.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Console.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Data.Common.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.Contracts.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.Debug.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.Process.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.StackTrace.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.Tools.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.TraceSource.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.Tracing.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Drawing.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Dynamic.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Globalization.Calendars.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Globalization.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Globalization.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.Compression.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.Compression.ZipFile.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.FileSystem.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.IsolatedStorage.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.Pipes.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Linq.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Linq.Expressions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Linq.Parallel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Linq.Queryable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Http.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.NameResolution.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.NetworkInformation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Ping.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Requests.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Security.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.Sockets.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.WebHeaderCollection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.WebSockets.Client.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Net.WebSockets.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ObjectModel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Reflection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Reflection.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Reflection.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Resources.Reader.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Resources.ResourceManager.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Resources.Writer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Handles.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.InteropServices.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Numerics.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Serialization.Json.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Claims.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.Csp.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Principal.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.SecureString.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Text.Encoding.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Text.Encoding.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Text.RegularExpressions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.Overlapped.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.Tasks.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.Thread.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.ThreadPool.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Threading.Timer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ValueTuple.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.ReaderWriter.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.XDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.XmlDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.XmlSerializer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.XPath.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Xml.XPath.XDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Antlr3.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\EntityFramework.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\EntityFramework.SqlServer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Identity.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Logging.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Options.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Win32.Registry.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Newtonsoft.Json.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Remotion.Linq.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Buffers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.Immutable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.ComponentModel.Annotations.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Interactive.Async.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Memory.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Numerics.Vectors.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.AccessControl.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Cryptography.Xml.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Permissions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Security.Principal.Windows.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Text.Encodings.Web.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Helpers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Mvc.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Optimization.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\WebGrease.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\EntityFramework.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\EntityFramework.SqlServer.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.Identity.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Logging.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Options.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Remotion.Linq.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Buffers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Collections.Immutable.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Interactive.Async.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Memory.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Numerics.Vectors.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Text.Encodings.Web.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Helpers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Mvc.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Optimization.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\System.Web.WebPages.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Newtonsoft.Json.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Antlr3.Runtime.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\obj\Debug\Lab4.csproj.CopyComplete
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\obj\Debug\Lab4.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab4\obj\Debug\Lab4.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Lab4.dll.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Lab4.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Lab4.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\csc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\csc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\csc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\csi.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\csi.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.AppContext.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\vbc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\vbc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\vbc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\VBCSCompiler.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Win32.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\netstandard.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.AppContext.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.Concurrent.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.NonGeneric.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.Specialized.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ComponentModel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ComponentModel.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Console.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Data.Common.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.Contracts.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.Debug.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.Process.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.StackTrace.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.Tools.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.TraceSource.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.Tracing.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Drawing.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Dynamic.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Globalization.Calendars.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Globalization.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Globalization.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.Compression.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.Compression.ZipFile.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.FileSystem.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.IsolatedStorage.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.Pipes.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Linq.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Linq.Expressions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Linq.Parallel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Linq.Queryable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Http.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.NameResolution.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.NetworkInformation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Ping.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Requests.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Security.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.Sockets.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.WebHeaderCollection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.WebSockets.Client.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Net.WebSockets.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ObjectModel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Reflection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Reflection.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Reflection.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Resources.Reader.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Resources.ResourceManager.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Resources.Writer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Handles.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.InteropServices.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Numerics.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Serialization.Json.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Claims.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.Csp.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Principal.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.SecureString.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Text.Encoding.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Text.Encoding.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Text.RegularExpressions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.Overlapped.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.Tasks.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.Thread.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.ThreadPool.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Threading.Timer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ValueTuple.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.ReaderWriter.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.XDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.XmlDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.XmlSerializer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.XPath.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Xml.XPath.XDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Antlr3.Runtime.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\EntityFramework.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\EntityFramework.SqlServer.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Identity.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Identity.Core.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Logging.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Options.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Win32.Registry.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Newtonsoft.Json.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Owin.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Remotion.Linq.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Buffers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.Immutable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.ComponentModel.Annotations.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Interactive.Async.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Memory.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Numerics.Vectors.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.AccessControl.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Cryptography.Xml.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Permissions.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Security.Principal.Windows.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Text.Encodings.Web.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Helpers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Mvc.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Optimization.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.Deployment.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\WebGrease.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\EntityFramework.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\EntityFramework.SqlServer.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.Identity.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Identity.Core.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Logging.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Options.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Remotion.Linq.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Buffers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Collections.Immutable.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Interactive.Async.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Memory.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Numerics.Vectors.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Text.Encodings.Web.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Helpers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Mvc.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Optimization.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.Deployment.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\System.Web.WebPages.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Newtonsoft.Json.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Antlr3.Runtime.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\obj\Debug\Lab4.csprojAssemblyReference.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\obj\Debug\Lab4.csproj.CopyComplete
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\obj\Debug\Lab4.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab6\obj\Debug\Lab4.pdb
+D:\Labs\Lab6\bin\Lab4.dll.config
+D:\Labs\Lab6\bin\Lab4.dll
+D:\Labs\Lab6\bin\Lab4.pdb
+D:\Labs\Lab6\bin\roslyn\csc.exe
+D:\Labs\Lab6\bin\roslyn\csc.exe.config
+D:\Labs\Lab6\bin\roslyn\csc.rsp
+D:\Labs\Lab6\bin\roslyn\csi.exe
+D:\Labs\Lab6\bin\roslyn\csi.rsp
+D:\Labs\Lab6\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Labs\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Labs\Lab6\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Labs\Lab6\bin\roslyn\System.AppContext.dll
+D:\Labs\Lab6\bin\roslyn\System.Collections.Immutable.dll
+D:\Labs\Lab6\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Labs\Lab6\bin\roslyn\System.IO.FileSystem.dll
+D:\Labs\Lab6\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Labs\Lab6\bin\roslyn\System.Reflection.Metadata.dll
+D:\Labs\Lab6\bin\roslyn\vbc.exe
+D:\Labs\Lab6\bin\roslyn\vbc.exe.config
+D:\Labs\Lab6\bin\roslyn\vbc.rsp
+D:\Labs\Lab6\bin\roslyn\VBCSCompiler.exe
+D:\Labs\Lab6\bin\roslyn\VBCSCompiler.exe.config
+D:\Labs\Lab6\bin\Microsoft.Win32.Primitives.dll
+D:\Labs\Lab6\bin\netstandard.dll
+D:\Labs\Lab6\bin\System.AppContext.dll
+D:\Labs\Lab6\bin\System.Collections.Concurrent.dll
+D:\Labs\Lab6\bin\System.Collections.dll
+D:\Labs\Lab6\bin\System.Collections.NonGeneric.dll
+D:\Labs\Lab6\bin\System.Collections.Specialized.dll
+D:\Labs\Lab6\bin\System.ComponentModel.dll
+D:\Labs\Lab6\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Labs\Lab6\bin\System.ComponentModel.Primitives.dll
+D:\Labs\Lab6\bin\System.ComponentModel.TypeConverter.dll
+D:\Labs\Lab6\bin\System.Console.dll
+D:\Labs\Lab6\bin\System.Data.Common.dll
+D:\Labs\Lab6\bin\System.Diagnostics.Contracts.dll
+D:\Labs\Lab6\bin\System.Diagnostics.Debug.dll
+D:\Labs\Lab6\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Labs\Lab6\bin\System.Diagnostics.Process.dll
+D:\Labs\Lab6\bin\System.Diagnostics.StackTrace.dll
+D:\Labs\Lab6\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Labs\Lab6\bin\System.Diagnostics.Tools.dll
+D:\Labs\Lab6\bin\System.Diagnostics.TraceSource.dll
+D:\Labs\Lab6\bin\System.Diagnostics.Tracing.dll
+D:\Labs\Lab6\bin\System.Drawing.Primitives.dll
+D:\Labs\Lab6\bin\System.Dynamic.Runtime.dll
+D:\Labs\Lab6\bin\System.Globalization.Calendars.dll
+D:\Labs\Lab6\bin\System.Globalization.dll
+D:\Labs\Lab6\bin\System.Globalization.Extensions.dll
+D:\Labs\Lab6\bin\System.IO.Compression.dll
+D:\Labs\Lab6\bin\System.IO.Compression.ZipFile.dll
+D:\Labs\Lab6\bin\System.IO.dll
+D:\Labs\Lab6\bin\System.IO.FileSystem.dll
+D:\Labs\Lab6\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Labs\Lab6\bin\System.IO.FileSystem.Primitives.dll
+D:\Labs\Lab6\bin\System.IO.FileSystem.Watcher.dll
+D:\Labs\Lab6\bin\System.IO.IsolatedStorage.dll
+D:\Labs\Lab6\bin\System.IO.MemoryMappedFiles.dll
+D:\Labs\Lab6\bin\System.IO.Pipes.dll
+D:\Labs\Lab6\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Labs\Lab6\bin\System.Linq.dll
+D:\Labs\Lab6\bin\System.Linq.Expressions.dll
+D:\Labs\Lab6\bin\System.Linq.Parallel.dll
+D:\Labs\Lab6\bin\System.Linq.Queryable.dll
+D:\Labs\Lab6\bin\System.Net.Http.dll
+D:\Labs\Lab6\bin\System.Net.NameResolution.dll
+D:\Labs\Lab6\bin\System.Net.NetworkInformation.dll
+D:\Labs\Lab6\bin\System.Net.Ping.dll
+D:\Labs\Lab6\bin\System.Net.Primitives.dll
+D:\Labs\Lab6\bin\System.Net.Requests.dll
+D:\Labs\Lab6\bin\System.Net.Security.dll
+D:\Labs\Lab6\bin\System.Net.Sockets.dll
+D:\Labs\Lab6\bin\System.Net.WebHeaderCollection.dll
+D:\Labs\Lab6\bin\System.Net.WebSockets.Client.dll
+D:\Labs\Lab6\bin\System.Net.WebSockets.dll
+D:\Labs\Lab6\bin\System.ObjectModel.dll
+D:\Labs\Lab6\bin\System.Reflection.dll
+D:\Labs\Lab6\bin\System.Reflection.Extensions.dll
+D:\Labs\Lab6\bin\System.Reflection.Primitives.dll
+D:\Labs\Lab6\bin\System.Resources.Reader.dll
+D:\Labs\Lab6\bin\System.Resources.ResourceManager.dll
+D:\Labs\Lab6\bin\System.Resources.Writer.dll
+D:\Labs\Lab6\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Labs\Lab6\bin\System.Runtime.dll
+D:\Labs\Lab6\bin\System.Runtime.Extensions.dll
+D:\Labs\Lab6\bin\System.Runtime.Handles.dll
+D:\Labs\Lab6\bin\System.Runtime.InteropServices.dll
+D:\Labs\Lab6\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Labs\Lab6\bin\System.Runtime.Numerics.dll
+D:\Labs\Lab6\bin\System.Runtime.Serialization.Formatters.dll
+D:\Labs\Lab6\bin\System.Runtime.Serialization.Json.dll
+D:\Labs\Lab6\bin\System.Runtime.Serialization.Primitives.dll
+D:\Labs\Lab6\bin\System.Runtime.Serialization.Xml.dll
+D:\Labs\Lab6\bin\System.Security.Claims.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.Algorithms.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.Csp.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.Encoding.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.Primitives.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Labs\Lab6\bin\System.Security.Principal.dll
+D:\Labs\Lab6\bin\System.Security.SecureString.dll
+D:\Labs\Lab6\bin\System.Text.Encoding.dll
+D:\Labs\Lab6\bin\System.Text.Encoding.Extensions.dll
+D:\Labs\Lab6\bin\System.Text.RegularExpressions.dll
+D:\Labs\Lab6\bin\System.Threading.dll
+D:\Labs\Lab6\bin\System.Threading.Overlapped.dll
+D:\Labs\Lab6\bin\System.Threading.Tasks.dll
+D:\Labs\Lab6\bin\System.Threading.Tasks.Parallel.dll
+D:\Labs\Lab6\bin\System.Threading.Thread.dll
+D:\Labs\Lab6\bin\System.Threading.ThreadPool.dll
+D:\Labs\Lab6\bin\System.Threading.Timer.dll
+D:\Labs\Lab6\bin\System.ValueTuple.dll
+D:\Labs\Lab6\bin\System.Xml.ReaderWriter.dll
+D:\Labs\Lab6\bin\System.Xml.XDocument.dll
+D:\Labs\Lab6\bin\System.Xml.XmlDocument.dll
+D:\Labs\Lab6\bin\System.Xml.XmlSerializer.dll
+D:\Labs\Lab6\bin\System.Xml.XPath.dll
+D:\Labs\Lab6\bin\System.Xml.XPath.XDocument.dll
+D:\Labs\Lab6\bin\Antlr3.Runtime.dll
+D:\Labs\Lab6\bin\EntityFramework.dll
+D:\Labs\Lab6\bin\EntityFramework.SqlServer.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Labs\Lab6\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Identity.dll
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\Labs\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.dll
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Caching.Memory.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Identity.Core.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Identity.Stores.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Logging.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.ObjectPool.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Options.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.Primitives.dll
+D:\Labs\Lab6\bin\Microsoft.Extensions.WebEncoders.dll
+D:\Labs\Lab6\bin\Microsoft.Net.Http.Headers.dll
+D:\Labs\Lab6\bin\Microsoft.Owin.dll
+D:\Labs\Lab6\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.dll
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Labs\Lab6\bin\Microsoft.Web.Infrastructure.dll
+D:\Labs\Lab6\bin\Microsoft.Win32.Registry.dll
+D:\Labs\Lab6\bin\Newtonsoft.Json.dll
+D:\Labs\Lab6\bin\Owin.dll
+D:\Labs\Lab6\bin\Remotion.Linq.dll
+D:\Labs\Lab6\bin\System.Buffers.dll
+D:\Labs\Lab6\bin\System.Collections.Immutable.dll
+D:\Labs\Lab6\bin\System.ComponentModel.Annotations.dll
+D:\Labs\Lab6\bin\System.Diagnostics.DiagnosticSource.dll
+D:\Labs\Lab6\bin\System.Interactive.Async.dll
+D:\Labs\Lab6\bin\System.Memory.dll
+D:\Labs\Lab6\bin\System.Numerics.Vectors.dll
+D:\Labs\Lab6\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Labs\Lab6\bin\System.Security.AccessControl.dll
+D:\Labs\Lab6\bin\System.Security.Cryptography.Xml.dll
+D:\Labs\Lab6\bin\System.Security.Permissions.dll
+D:\Labs\Lab6\bin\System.Security.Principal.Windows.dll
+D:\Labs\Lab6\bin\System.Text.Encodings.Web.dll
+D:\Labs\Lab6\bin\System.Web.Helpers.dll
+D:\Labs\Lab6\bin\System.Web.Mvc.dll
+D:\Labs\Lab6\bin\System.Web.Optimization.dll
+D:\Labs\Lab6\bin\System.Web.Razor.dll
+D:\Labs\Lab6\bin\System.Web.WebPages.Deployment.dll
+D:\Labs\Lab6\bin\System.Web.WebPages.dll
+D:\Labs\Lab6\bin\System.Web.WebPages.Razor.dll
+D:\Labs\Lab6\bin\WebGrease.dll
+D:\Labs\Lab6\bin\EntityFramework.xml
+D:\Labs\Lab6\bin\EntityFramework.SqlServer.xml
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Labs\Lab6\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\Labs\Lab6\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.Identity.xml
+D:\Labs\Lab6\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.xml
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Caching.Memory.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Identity.Core.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Identity.Stores.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Logging.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.ObjectPool.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Options.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.Primitives.xml
+D:\Labs\Lab6\bin\Microsoft.Extensions.WebEncoders.xml
+D:\Labs\Lab6\bin\Microsoft.Net.Http.Headers.xml
+D:\Labs\Lab6\bin\Microsoft.Owin.xml
+D:\Labs\Lab6\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.xml
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Labs\Lab6\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Labs\Lab6\bin\Remotion.Linq.xml
+D:\Labs\Lab6\bin\System.Buffers.xml
+D:\Labs\Lab6\bin\System.Collections.Immutable.xml
+D:\Labs\Lab6\bin\System.Diagnostics.DiagnosticSource.xml
+D:\Labs\Lab6\bin\System.Interactive.Async.xml
+D:\Labs\Lab6\bin\System.Memory.xml
+D:\Labs\Lab6\bin\System.Numerics.Vectors.xml
+D:\Labs\Lab6\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Labs\Lab6\bin\System.Text.Encodings.Web.xml
+D:\Labs\Lab6\bin\System.Web.Helpers.xml
+D:\Labs\Lab6\bin\System.Web.Mvc.xml
+D:\Labs\Lab6\bin\System.Web.Optimization.xml
+D:\Labs\Lab6\bin\System.Web.Razor.xml
+D:\Labs\Lab6\bin\System.Web.WebPages.xml
+D:\Labs\Lab6\bin\System.Web.WebPages.Deployment.xml
+D:\Labs\Lab6\bin\System.Web.WebPages.Razor.xml
+D:\Labs\Lab6\bin\Newtonsoft.Json.xml
+D:\Labs\Lab6\bin\Antlr3.Runtime.pdb
+D:\Labs\Lab6\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\Labs\Lab6\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Labs\Lab6\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+D:\Labs\Lab6\obj\Debug\Lab4.csproj.CopyComplete
+D:\Labs\Lab6\obj\Debug\Lab4.dll
+D:\Labs\Lab6\obj\Debug\Lab4.pdb

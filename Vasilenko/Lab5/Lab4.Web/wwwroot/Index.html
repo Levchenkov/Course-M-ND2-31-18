@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid" style=" background-color:ghostwhite">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-left:unset">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notifications <span class="badge badge-primary">4</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Messages <span class="badge badge-primary">1</span></a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+    
+        <div class="container-fluid" style="background-color:gainsboro; height:700px">
+            <br />
+            <div class="row">            
+                <!-- Left column -->
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="row">
+                        <!-- Left #1 -->
+                        <profile class="col-md-12">
+                            <div class="card text-black bg-primary mb-3" style="height:180px; border:0px; width:230px">
+                                <div class="card-body" style="background: linear-gradient(to bottom, royalblue 50%, white 50%)">
+                                    <img src="/images/Untitled.jpg" alt="rabbit" class="rounded-circle my-auto" style="height:100px">
+                                    <a class="card-text ">@clumsy86</a>
+                                </div>
+                            </div>
+                        </profile>
+                        <!-- Left #2 -->
+                        <trends class="col-md-12">
+                            <div class="card text-primary bg-white mb-3" style="width:230px; margin:unset">
+                                <div class="card-header" style="height:70px; background-color:white; color:black"><h4>Trends for you</h4> </div>
+                                <div class="card-body" style="background-color:white; padding-top:unset">
+                                    <p class="card-text">Trend 1</p>
+                                    <p class="card-text">Trend 2</p>
+                                    <p class="card-text">Trend 3</p>
+                                    <p class="card-text">Trend 4</p>
+                                </div>
+                            </div>
+                        </trends>
+                    </div>
+                </div>
+
+                <!-- MAIN -->
+                <main class="col-lg-6" >
+                    <div class="row">
+                        <!--<form>
+            <div class="form-row">-->
+                        <div class="col-md-1">
+                            <img class="align-self-center rounded-circle mr-3" src="/images/Untitled.jpg" alt="" style="height:50px">
+                        </div>
+                        <div class="col-md-9">
+                            <label for="Content" hidden></label>
+                            <textarea class="form-control " rows="2" id="Content" placeholder="What's happenning?"></textarea>
+                        </div>
+                        <div class="col-md-2">
+                            <button type="button" class="btn btn-primary">Tweet</button>
+                        </div>
+                    </div>
+                            <!--</div>
+                        </form>-->
+     
+                        <div class="row media">
+                            <!--<div class="media">-->
+                                <div class="col-md-1">
+                                    <img class="align-self-center rounded-circle mr-3" src="/images/Untitled.jpg" alt="" style="height:50px">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="media-body">
+                                        <h5 class="mb-0">Username Date</h5>
+                                        <p>Post</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <button type="button" class="btn btn-primary">Edit</button>
+                                </div>
+                            <!--</div>-->
+                        </div>
+        
+           </main>
+
+                <div class="col-lg-2">
+                    <div class="row">
+                        <!-- Right #1 -->
+                        <follows class="col-md-12">
+                            <div class="card text-primary bg-white mb-3" style="width:230px; margin:unset">
+                                <div class="card-header" style="height:70px; background-color:white; color:black"><h4>Who to follow</h4> </div>
+                                <div class="card-body" style="background-color:white; padding-top:unset">
+                                    <p class="card-text">Follow</p>
+                                    <p class="card-text">Follow</p>
+                                    <p class="card-text">Follow</p>
+                                    <p class="card-text">Follow</p>
+                                </div>
+                            </div>
+                        </follows>
+                        <!-- Right #2 -->
+                        <smth class="col-md-12">
+                            <div class="card text-dark bg-white mb-3" style="width:230px; margin:unset">
+                                <div class="card-body" style="background-color:white; padding-top:unset; font-size:12px">
+                                    <a class="card-text">© 2018 Twitter</a>
+                                    <a href="#" style="color:black">About</a>
+                                    <a href="#"style="color:black">Help Center</a>
+                                    <a href="#"style="color:black">Terms</a>
+                                    <a href="#"style="color:black">Privacy policy</a>
+                                    <a href="#"style="color:black">Cookies</a>
+                                    <a href="#" style="color:black">Ads info</a>
+                                    <a href="#" style="color:black">Brand</a>
+                                    <a href="#" style="color:black">Blog</a>
+                                </div>
+                             </div>
+                      </smth>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+            <script src="/node_modules/jquery/dist/jquery.js"></script>
+            <script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

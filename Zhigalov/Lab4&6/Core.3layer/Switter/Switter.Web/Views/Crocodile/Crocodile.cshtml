@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "Crocodile";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <div id="player"><p style="background-color:#a9a9a9; margin-top: 10px; margin-bottom: 10px;"><b>Current players:</b></p></div>
+            <div id="players"></div>
+        </div>
+        <div class="col-sm-6">
+            <div id="loginBlock">
+                <input id="loginBtn" type="button" value="Enter" 
+                       style="margin-top: 10px; margin-bottom: 10px;"/>
+            </div>
+            <div id="word" class="text-center">
+            </div>
+            <div>
+                <canvas id="crocoCanvas" width="550" height="400" class="text-center"
+                        style="background-color:#a9a9a9; border: 1px solid #000000; margin-top: 10px; margin-bottom: 10px; display: none;">
+                    Your browser sucks!
+                </canvas>
+            </div>
+            <div id="inputForm" class="text-center" style="display:none;">
+                <input type="text" id="message" 
+                       style="margin-top: 10px; margin-bottom: 10px;"/>
+                <input type="button" id="sendBtn" value="Send" 
+                       style="margin-top: 10px; margin-bottom: 10px;"/>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div id="chatroom" style="margin-top: 10px; margin-bottom: 10px;"></div>
+        </div>
+    </div>
+</div>
+
+<script src="js/signalr.min.js"></script>
+<script src="~/js/crocodile.js"></script>

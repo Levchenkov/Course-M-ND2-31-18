@@ -1,0 +1,15 @@
+﻿<div class="container" id="loginContainer">
+    <div class="row justify-content-md-center">
+        <div class="col col-md-auto ">
+            <div class="container mt-3 rounded justify-content-md-center bg-white text-dark">
+                <h2>Register</h2>
+                <form>
+                    <div class="form-group">
+                        @Html.TextBox("loginName", String.Empty, new { id = "loginName", required = "required" })
+                    </div>
+                    <input id="btnLogin" class="btn btn-dark mb-2" type="button" value="Sign In" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

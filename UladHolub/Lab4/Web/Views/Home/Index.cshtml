@@ -1,0 +1,31 @@
+﻿@model Web.Models.HomeIndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-end">
+        <div class="col-md-auto">
+            @using (Html.BeginForm("Create", "Home", FormMethod.Post, new { @class = "mt-3" }))
+            {
+                @Html.AntiForgeryToken();
+                <div class="form-group">
+                    @Html.TextAreaFor(x => x.FormPost.Content, new { required = "required", @class = "form-control", maxlength = "240" })
+                </div>
+                @Html.ValidationMessage("", new { @class = "text-danger" })
+                <button class="btn btn-primary" type="submit">Create</button>
+            }
+            @foreach (var post in Model.Posts)
+            {
+                <div>
+                    <div class="mt-3">
+                        <p><strong>@post.User.UserName</strong> <i>added @post.Date</i></p>
+                    </div>
+                    <div>@post.Content</div>
+                </div>
+                <hr />
+            }
+        </div>
+    </div>
+</div>

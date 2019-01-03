@@ -1,0 +1,34 @@
+﻿@model BusinessLogicLayer.DataModel.StudentDataModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <br />
+    @if (Model != null)
+    {
+        <h4>Текущий пользователь: @Html.DisplayFor(model => model.FirstName)  @Html.DisplayFor(model => model.LastName)</h4>
+    }
+    <br />
+    <h2>Просмотр записи</h2>
+    <table class="table table-striped">
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Id)</td>
+            <td style="color:red">@ViewBag.CurrentStudent.Id</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.FirstName)</td>
+            <td style="color:red">@ViewBag.CurrentStudent.FirstName</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.LastName)</td>
+            <td style="color:red">@ViewBag.CurrentStudent.LastName</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <br />
+    <h4>@Html.ActionLink("Назад к списку студентов", "Index", new { area = "", controller = "Students", id = Model.Id }, new { @class = "btn btn-info" })</h4>
+</div>

@@ -1,0 +1,72 @@
+﻿@using Microsoft.AspNet.Identity;
+@using Laba4.BusinessLogicLayer.Services;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container">
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
+            @Html.ActionLink("Laba 4 Twitter", "Index", "Post", new { area = "" }, new { @class = "navbar-brand" })
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">@Html.ActionLink("Сообщения", "Index", "Post", null, new { @class = "nav-link" })</li>
+                </ul>
+                <ul class="nav justify-content-end">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">@Html.ActionLink("Выход", "Logout", "Account", null, new { @class = "nav-link" })</li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">@Html.ActionLink("Вход", "Login", "Account", null, new { @class = "nav-link" })</li>
+                        @*<li class="nav-item"> @Html.ActionLink("Регистрация", "Register", "Account", null, new { @class = "nav-link" })</li>*@
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @if (User.Identity.IsAuthenticated)
+        {
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card bg-info mb-3 user-card">
+                    <div class="card-header user-card-header" ></div>
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">@User.Identity.GetFullUserName()</h5>
+                        <p class="card-text">@User.Identity.Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 post">@RenderBody()</div>
+
+        </div>
+        }
+        else
+        {
+            @RenderBody()
+        }
+
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "SuccessEmail";
+}
+
+<h2>Регистрация пользователя завершена</h2>
+<p>Указанный электронный адрес подтвержден</p>
+
+@section Scripts {
+
+    <script>
+    $(document).ready(function () {
+        setTimeout(function () {
+            var urlSus = '@Url.Action("Index", "Post")';
+            window.location.href = urlSus;
+        },5000);
+    });
+    </script>
+    }

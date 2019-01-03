@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "SuccessRegister";
+}
+
+<h2>Регистрация пользователя завершена</h2>
+<p>На указанный электронный адрес отправлены дальнейшие инструкции по завершению регистрации</p>
+
+@section Scripts {
+
+    <script>
+    $(document).ready(function () {
+        setTimeout(function () {
+            var urlSus = '@Url.Action("Index", "Post")';
+            window.location.href = urlSus;
+        },5000);
+    });
+    </script>
+    }

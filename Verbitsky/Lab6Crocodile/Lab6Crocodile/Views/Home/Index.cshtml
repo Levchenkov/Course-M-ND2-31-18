@@ -1,0 +1,41 @@
+﻿@model SelectList
+@{
+    ViewData["Title"] = "Crocodile";
+}
+
+<div>
+    <canvas id="myCanvas" width="600" height="350"
+            style="background-color:#eee; border: 1px solid #ccc; margin-top: 10px; margin-bottom: 10px; display: none">
+        Ваш браузер не поддерживает Canvas
+    </canvas>
+
+    <table id="entrance" style="margin-top: 10px;">
+        <tr>
+            <td><label for="name">Enter your name: </label></td>
+            <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+            <td><label for="dropDownList">Select group </label></td>
+            <td>@Html.DropDownList("Groups", Model, htmlAttributes: new { id = "dropDownList", @class = "" })</td>
+        </tr>
+        <tr>
+            <td><button onclick="Register()">Continue</button></td>
+        </tr>
+    </table>
+
+    <h3 id="SecretWord" style="display: none">Секретное слово: </h3>
+
+    <div id="chat" style="display: none">
+        <h3 id="spn-name"></h3>
+        <form id="frm-send-message" action="#">
+            <label for="message">Message:</label>
+            <input type="text" id="message" />
+            <input type="submit" id="send" value="Send" class="send" />
+        </form>
+        <ul id="messages"></ul>
+    </div>
+
+    <script src="~/js/signalr.min.js"></script>
+    <script src="~/js/Register.js"></script>
+    <script src="~/js/Connection.js"></script>
+</div>

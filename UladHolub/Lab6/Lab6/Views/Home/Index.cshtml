@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.Partial("_LoginContainer")
+@Html.Partial("_LaunchMenu")
+@Html.Partial("_Game")
+
+<input id="userId" type="hidden" />
+<input id="userName" type="hidden" />
+
+@Scripts.Render("~/Scripts/app/game.js")

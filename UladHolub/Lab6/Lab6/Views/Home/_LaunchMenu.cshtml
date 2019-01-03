@@ -1,0 +1,30 @@
+﻿<div class="container" id="launchMenu">
+    <div class="row justify-content-md-center">
+        <div class="col col-md-auto ">
+            <div class="container mt-3 rounded justify-content-md-center bg-white text-dark">
+                <div id="header"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div id="createRoomForm" class="container mt-3 p-2 rounded bg-white text-dark">
+                <p><strong class="text-black-50">Create Room</strong></p>
+                @Html.Label("Number of players");
+                <select class="form-control" id="playersNumber">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <input id="btnCreateRoom" class="btn btn-dark my-2" type="button" value="Create" />
+            </div>
+            <div id="users" class="container mt-3 rounded bg-white text-dark">
+                <p><strong class="text-danger">Users Online</strong></p>
+            </div>
+        </div>
+        <div class="col-md-8" id="groupMenu">
+            <div class="mt-3"></div>
+        </div>
+    </div>
+</div>
+

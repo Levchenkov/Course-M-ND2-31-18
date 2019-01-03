@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Switter.Domain.Contracts.ViewModels.TweetViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2 well-sm">
+            <p>
+                <a asp-action="Create">Create New</a>
+            </p>
+        </div>
+        <div class="col-sm-8">
+            @foreach (var item in Model)
+            {
+            <div id="tweets" style="margin-top: 10px; margin-bottom: 10px;">
+                <a href="" class="mt-2 list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">@Html.DisplayFor(modelItem => item.Author.UserName)</h5>
+                        <small class="text-muted">@Html.DisplayFor(modelItem => item.Date)</small>
+                    </div>
+                    <p class="mb-1">@Html.DisplayFor(modelItem => item.Content)</p>
+                </a>
+            </div>
+            }
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
+</div>
+

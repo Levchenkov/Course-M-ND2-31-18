@@ -1,0 +1,22 @@
+﻿@model Web.Models.HomeIndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @Html.Partial("_UserInfo")
+            @Html.Partial("_Recommendations")
+            @Html.Partial("_Groups")
+            <div class="container mt-2 rounded bg-white text-dark">
+                <p>&copy; @DateTime.Now.Year - Lab5 Ulad Holub</p>
+            </div>
+        </div>
+        <div class="col-md-8">            
+            @Html.Partial("_IndexCreatePost")
+            @Html.Partial("_NewsFeed")
+        </div>
+    </div>
+</div>

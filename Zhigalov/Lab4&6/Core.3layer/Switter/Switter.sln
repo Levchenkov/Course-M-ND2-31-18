@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switter.Web", "Switter.Web\Switter.Web.csproj", "{0209E7B5-1030-4249-9305-4DC180D86A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switter.Data.Contracts", "Switter.Data.Contracts\Switter.Data.Contracts.csproj", "{B1760FA2-38B5-4EF4-814D-64C17250751D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switter.Data.Repositories", "Switter.Data.Repositories\Switter.Data.Repositories.csproj", "{1B45EC32-2C30-4372-AFDB-9DC2D5AFACD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switter.Infrastructure", "Switter.Infrastructure\Switter.Infrastructure.csproj", "{521E0A9D-D6BB-49A4-A4DA-BFC0EBD45372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switter.Domain.Contracts", "Switter.Domain.Contracts\Switter.Domain.Contracts.csproj", "{BCD087F6-455D-4184-A2C9-40B638FD54D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switter.Domain.Services", "Switter.Domain.Services\Switter.Domain.Services.csproj", "{E348A3AD-4936-49EC-8454-BA457C7BFD4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0209E7B5-1030-4249-9305-4DC180D86A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0209E7B5-1030-4249-9305-4DC180D86A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0209E7B5-1030-4249-9305-4DC180D86A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0209E7B5-1030-4249-9305-4DC180D86A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1760FA2-38B5-4EF4-814D-64C17250751D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1760FA2-38B5-4EF4-814D-64C17250751D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1760FA2-38B5-4EF4-814D-64C17250751D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1760FA2-38B5-4EF4-814D-64C17250751D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B45EC32-2C30-4372-AFDB-9DC2D5AFACD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B45EC32-2C30-4372-AFDB-9DC2D5AFACD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B45EC32-2C30-4372-AFDB-9DC2D5AFACD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B45EC32-2C30-4372-AFDB-9DC2D5AFACD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521E0A9D-D6BB-49A4-A4DA-BFC0EBD45372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521E0A9D-D6BB-49A4-A4DA-BFC0EBD45372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521E0A9D-D6BB-49A4-A4DA-BFC0EBD45372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521E0A9D-D6BB-49A4-A4DA-BFC0EBD45372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD087F6-455D-4184-A2C9-40B638FD54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD087F6-455D-4184-A2C9-40B638FD54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD087F6-455D-4184-A2C9-40B638FD54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD087F6-455D-4184-A2C9-40B638FD54D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E348A3AD-4936-49EC-8454-BA457C7BFD4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E348A3AD-4936-49EC-8454-BA457C7BFD4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E348A3AD-4936-49EC-8454-BA457C7BFD4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E348A3AD-4936-49EC-8454-BA457C7BFD4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55288DF8-937B-4A62-BC82-D5AFE901E399}
+	EndGlobalSection
+EndGlobal

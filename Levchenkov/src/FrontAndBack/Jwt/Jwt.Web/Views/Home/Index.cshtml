@@ -40,7 +40,7 @@
 
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost:54375/token',
+                url: 'http://localhost:58142/token',
                 data: loginData
             }).success(function (data) {
                 $('.userName').text(data.username);
@@ -65,7 +65,7 @@
             e.preventDefault();
             $.ajax({
                 type: 'GET',
-                url: 'http://localhost:54375/api/values/getlogin',
+                url: 'http://localhost:58142/api/values/getlogin',
                 beforeSend: function (xhr) {
 
                     var token = sessionStorage.getItem(tokenKey);
@@ -83,7 +83,7 @@
             e.preventDefault();
             $.ajax({
                 type: 'GET',
-                url: 'http://localhost:54375/api/values/getrole',
+                url: 'http://localhost:58142/api/values/getrole',
                 beforeSend: function (xhr) {
 
                     var token = sessionStorage.getItem(tokenKey);

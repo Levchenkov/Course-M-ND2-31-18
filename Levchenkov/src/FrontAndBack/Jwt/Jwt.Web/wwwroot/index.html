@@ -17,7 +17,7 @@
             $.ajax({
                 type: 'POST',
                 data: { content: $("#createPostContent").val() },
-                url: 'http://localhost:54375/api/post',
+                url: 'http://localhost:58142/api/post',
 
                 success: function (posts) {
                     document.location.href = document.location.href;
@@ -31,7 +31,6 @@
             $.ajax({
                 type: 'GET',
                 url: 'http://localhost:54375/api/post',
-
                 success: function (posts) {
                     var container = $("#postContainer");
 

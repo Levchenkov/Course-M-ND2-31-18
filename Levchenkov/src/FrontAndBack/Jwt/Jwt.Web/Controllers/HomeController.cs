@@ -14,7 +14,7 @@ namespace Jwt.Web.Controllers
     {
         public IActionResult Index()
         {
-            HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:54375");
+            HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:58142");
             return View();
         }
 

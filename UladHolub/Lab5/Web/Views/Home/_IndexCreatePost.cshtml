@@ -1,0 +1,41 @@
+﻿@model Web.Models.HomeIndexViewModel
+
+<div class="container mt-3 rounded bg-white text-dark">
+    @using (Html.BeginForm("Create", "Home", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken();
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 p-0 ">
+                    <div class="mt-2 mr-1">
+                        <img src="~/Content/Images/img0.jpg" class="img-thumbnail rounded-circle border-0 float-left" alt="Cinque Terre">
+                    </div>
+                </div>
+                <div class="col-md-11 p-0">
+                    <div class="input-group">
+                        @Html.TextAreaFor(x => x.FormPost.Content,
+                            new { id ="newPostTextArea", required = "required", placeholder = "What's new?",
+                                @class = "form-control my-1 mx-1 mw-100", maxlength = "240" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        @Html.ValidationMessage("", new { @class = "text-danger" })
+        <div class="float-right">
+            <button id="createButton" class="btn float-right my-1 btn-dark" style="display: none" type="submit">Create</button>
+            <script>
+                $(document).ready(function () {
+                    $('#newPostTextArea').focus(function () {
+                        $('#createButton').fadeIn();
+                    });
+                    $('#newPostTextArea').blur(function () {
+                        if (this.value === "") {
+                            $('#createButton').fadeOut();
+                        }
+                    });
+                });
+            </script>
+        </div>
+        <div class="input-group"></div>
+    }
+</div>

@@ -1,0 +1,39 @@
+﻿<div class="container" id="gameContainer">
+    <div class="row">
+        <div class="col">
+            <div class="container mt-3 rounded bg-white text-dark">
+                <canvas id="gameCanvas" class="my-2 rounded bg-light border" width="450" height="400"></canvas>
+            </div>
+            <div class="container mt-3 rounded bg-white text-dark">
+                <p><strong class="text-danger">Group Users</strong></p>
+                <div id="groupUsers" class="container mt-3 rounded bg-white text-dark">
+                    <p class="p-0"><strong class="text-danger">Group Users</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div id="chatContainer" class="container mt-3 p-2 rounded bg-white text-dark" style="height: 400px;">
+                <div class="row  h-75">
+                    <div class="col">
+                        <div id="chatBox" class="container h-100 w-100 rounded bg-light border" style="overflow-y: scroll;">
+                        </div>
+                    </div>
+                </div>
+                <div class="row h-25">
+                    <div class="col">
+                        <div class="input-group my-2">
+                            <input type="text" id="chatMessage" class="form-control mw-100" placeholder="Enter your message"
+                                   aria-label="Enter your message" aria-describedby="basic-addon2" required="required" />
+                            <div class="input-group-append">
+                                <button id="btnSendMessage" class="btn btn-dark">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <input id="btnReturnToMenu" class="btn btn-success my-2" type="button" value="Return To Menu" />
+        </div>
+    </div>
+    <input id="groupName" type="hidden" />
+    <input id="groupLeader" type="hidden" />
+</div>

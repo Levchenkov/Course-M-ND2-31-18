@@ -1,0 +1,129 @@
+﻿@model Lab8.Models.PaymentViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container">
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { id = "payment" }))
+    {
+        <div class="row justify-content-md-center">
+            <div class="col col-md-auto ">
+                <h2 class="text-light">Payment Form</h2>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col col-md-auto">
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(false, "", new { @class = "text-danger", id = "ValidationSummary" })
+                @Html.HiddenFor(model => model.Id)
+            </div>
+        </div>
+        <fieldset>
+            <div class="row justify-content-md-center">
+                <div class="col col-4 p-2 rounded-left bg-white text-dark">
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.MiddleName, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.MiddleName, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.MiddleName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.LastName, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.Address, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.City, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.City, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.Country, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.Country, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.PostCode, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.PostCode, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.PostCode, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-4 p-2 rounded-right bg-white text-dark">
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.Amount, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.Amount, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.Amount, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.CreditCardNumber, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.CreditCardNumber, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.CreditCardNumber, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.ExpirationMonth, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.ExpirationMonth, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.ExpirationMonth, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.ExpirationYear, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.ExpirationYear, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.ExpirationYear, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.SecurityCode, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextBoxFor(model => model.SecurityCode, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.SecurityCode, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group m-0">
+                        @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label" })
+                        <div>
+                            @Html.TextAreaFor(model => model.Description, new { @class = "form-control form-control-sm" })
+                            @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <input type="submit" value="Pay" class="btn btn-dark m-2" />
+                </div>
+            </div>
+        </fieldset>
+    }
+</div>

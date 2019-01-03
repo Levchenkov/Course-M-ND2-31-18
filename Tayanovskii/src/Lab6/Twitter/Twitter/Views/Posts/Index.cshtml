@@ -1,0 +1,55 @@
+﻿@using System.Security.Claims
+@using Microsoft.AspNetCore.Identity
+@using Twitter.Data.Contracts.Entities
+@model IEnumerable<Twitter.Domain.Contracts.Models.PostViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Author)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author.Id)
+                </td>
+                <td>
+                    @{
+                        if (item.AuthorId == User.FindFirstValue(ClaimTypes.NameIdentifier))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id"> Edit </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id"> Delete </a>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

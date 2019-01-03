@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Confirm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Confirm</h2>
+
+<p>На почтовый адреc. Вам выслана повторная инструкция по завершению регистрации</p>
+
+@section Scripts {
+
+    <script>
+    $(document).ready(function () {
+        setTimeout(function () {
+            var urlSus = '@Url.Action("Index", "Post")';
+            window.location.href = urlSus;
+        },5000);
+    });
+    </script>
+}

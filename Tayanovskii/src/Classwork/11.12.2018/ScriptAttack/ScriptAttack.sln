@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSSAttack", "XSSAttack\XSSAttack.csproj", "{9D2F58FC-D57F-488D-ACB0-74ABCF2E6EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlInjection", "SqlInjection\SqlInjection.csproj", "{F454518B-E0B6-4BC8-9ED0-C4863C5705D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D2F58FC-D57F-488D-ACB0-74ABCF2E6EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2F58FC-D57F-488D-ACB0-74ABCF2E6EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2F58FC-D57F-488D-ACB0-74ABCF2E6EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2F58FC-D57F-488D-ACB0-74ABCF2E6EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F454518B-E0B6-4BC8-9ED0-C4863C5705D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F454518B-E0B6-4BC8-9ED0-C4863C5705D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F454518B-E0B6-4BC8-9ED0-C4863C5705D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F454518B-E0B6-4BC8-9ED0-C4863C5705D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29C7AB39-1AF5-4D88-B542-36B873141380}
+	EndGlobalSection
+EndGlobal

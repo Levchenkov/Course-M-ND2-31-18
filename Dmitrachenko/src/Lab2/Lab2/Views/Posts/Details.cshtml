@@ -1,0 +1,74 @@
+﻿@model BusinessLogicLayer.DataModel.PostDataModel
+
+@{
+
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@if (ViewBag.CurrentStudent != null)
+{
+    <h4>Текущий пользователь: @ViewBag.CurrentStudent.FirstName  @ViewBag.CurrentStudent.LastName</h4>
+}
+<br />
+<h2>Просмотр записи</h2>
+<div>
+    <table class="table table-hover table-striped table-bordered">
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Id)</td>
+            <td style="color:red">@Html.DisplayFor(model => model.Id)</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Content)</td>
+            <td style="color:red">@Html.DisplayFor(model => model.Content)</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Author)</td>
+            <td style="color:red">@Html.DisplayFor(model => model.Author.FirstName)  @Html.DisplayFor(model => model.Author.LastName)</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Created)</td>
+            <td style="color:red">@Html.DisplayFor(model => model.Created)</td>
+        </tr>
+        <tr>
+            <td style="color:darkblue">@Html.DisplayNameFor(model => model.Tags)</td>
+            <td style="color:red">
+                @foreach (var tag in Model.Tags)
+                {
+                    @Html.DisplayFor(c => tag.Name)
+                    @("  ")
+                }
+            </td>
+        </tr>
+    </table>
+</div>
+<div>
+    <br />
+    <h4>@Html.ActionLink("Назад к списку постов", "Index", new { area = "", controller = "Posts", id = ViewBag.CurrentStudent.Id }, new { @class = "btn btn-info" })</h4>
+</div>
+<div class="row">
+    <div class="col-md-pull-4">
+        <h2>Список сообщений</h2><br>
+        @foreach (var comment in Model.Comments)
+        {
+            <dl>
+                <dt style="color:darkblue">
+                    @Html.DisplayFor(c => comment.Content)
+                </dt>
+                <dd style="color:grey">
+                    @Html.DisplayFor(c => comment.Author.FirstName)
+                    @Html.DisplayFor(c => comment.Author.LastName)
+                    @Html.DisplayFor(c => comment.Created)
+            </dl>
+        }
+        @if (ViewBag.CurrentStudent.Id != null)
+        {
+            <div>
+                <h4>
+                    @Html.ActionLink("Создать новое сообщение", "Create", new { area = "", controller = "Messages", Id = Model.Id }, new { @class = "btn btn-info" })
+                </h4>
+            </div>
+        }
+    </div>
+</div>
+

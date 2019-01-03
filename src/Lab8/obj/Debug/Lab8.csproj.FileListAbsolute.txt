@@ -1,0 +1,138 @@
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Lab8.dll.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Lab8.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Lab8.pdb
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csi.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csi.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\csi.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.AppContext.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Console.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.IO.Compression.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.IO.Pipes.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Claims.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.ValueTuple.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Xml.XPath.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\vbc.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\vbc.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\vbc.rsp
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\VBCSCompiler.exe
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Helpers.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Mvc.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.Deployment.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.Razor.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.Deployment.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Webpages.Razor.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Helpers.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\System.Web.Mvc.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\obj\Debug\Lab8.csprojAssemblyReference.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\obj\Debug\Lab8.csproj.CopyComplete
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\obj\Debug\Lab8.dll
+C:\Users\b00001174\Documents\Visual Studio 2017\Projects\Labs\Lab8\obj\Debug\Lab8.pdb
+D:\Labs\Lab8\bin\Lab8.dll.config
+D:\Labs\Lab8\bin\Lab8.dll
+D:\Labs\Lab8\bin\Lab8.pdb
+D:\Labs\Lab8\bin\roslyn\csc.exe
+D:\Labs\Lab8\bin\roslyn\csc.exe.config
+D:\Labs\Lab8\bin\roslyn\csc.rsp
+D:\Labs\Lab8\bin\roslyn\csi.exe
+D:\Labs\Lab8\bin\roslyn\csi.exe.config
+D:\Labs\Lab8\bin\roslyn\csi.rsp
+D:\Labs\Lab8\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Labs\Lab8\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Labs\Lab8\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Labs\Lab8\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Labs\Lab8\bin\roslyn\System.AppContext.dll
+D:\Labs\Lab8\bin\roslyn\System.Collections.Immutable.dll
+D:\Labs\Lab8\bin\roslyn\System.Console.dll
+D:\Labs\Lab8\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Labs\Lab8\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Labs\Lab8\bin\roslyn\System.IO.Compression.dll
+D:\Labs\Lab8\bin\roslyn\System.IO.FileSystem.dll
+D:\Labs\Lab8\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Labs\Lab8\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Labs\Lab8\bin\roslyn\System.IO.Pipes.dll
+D:\Labs\Lab8\bin\roslyn\System.Reflection.Metadata.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.AccessControl.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Claims.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Labs\Lab8\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Labs\Lab8\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Labs\Lab8\bin\roslyn\System.ValueTuple.dll
+D:\Labs\Lab8\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Labs\Lab8\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Labs\Lab8\bin\roslyn\System.Xml.XPath.dll
+D:\Labs\Lab8\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Labs\Lab8\bin\roslyn\vbc.exe
+D:\Labs\Lab8\bin\roslyn\vbc.exe.config
+D:\Labs\Lab8\bin\roslyn\vbc.rsp
+D:\Labs\Lab8\bin\roslyn\VBCSCompiler.exe
+D:\Labs\Lab8\bin\roslyn\VBCSCompiler.exe.config
+D:\Labs\Lab8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Labs\Lab8\bin\Microsoft.Web.Infrastructure.dll
+D:\Labs\Lab8\bin\System.Web.Helpers.dll
+D:\Labs\Lab8\bin\System.Web.Mvc.dll
+D:\Labs\Lab8\bin\System.Web.Razor.dll
+D:\Labs\Lab8\bin\System.Web.Webpages.Deployment.dll
+D:\Labs\Lab8\bin\System.Web.Webpages.dll
+D:\Labs\Lab8\bin\System.Web.Webpages.Razor.dll
+D:\Labs\Lab8\bin\System.Web.Razor.xml
+D:\Labs\Lab8\bin\System.Web.Webpages.xml
+D:\Labs\Lab8\bin\System.Web.Webpages.Deployment.xml
+D:\Labs\Lab8\bin\System.Web.Webpages.Razor.xml
+D:\Labs\Lab8\bin\System.Web.Helpers.xml
+D:\Labs\Lab8\bin\System.Web.Mvc.xml
+D:\Labs\Lab8\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Labs\Lab8\obj\Debug\Lab8.csprojAssemblyReference.cache
+D:\Labs\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+D:\Labs\Lab8\obj\Debug\Lab8.csproj.CopyComplete
+D:\Labs\Lab8\obj\Debug\Lab8.dll
+D:\Labs\Lab8\obj\Debug\Lab8.pdb

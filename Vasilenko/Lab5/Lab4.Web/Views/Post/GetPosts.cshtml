@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Lab4.Web.Models.PostViewModel.PostViewModel>
+
+@{
+    ViewData["Title"] = "Posts";
+}
+<h2> Posts</h2>
+<div class="form-group">
+    <table>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.HiddenFor(modelItem => item.Id)
+                        @Html.DisplayFor(modelItem => item.Content)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "UpdatePost", new { id= item.Id})
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Created)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div> @using (Html.BeginForm("GetPosts", "Post"))
+{
+    <div class="form-group">
+    @Html.TextArea("Content", null, new { @class = "form-control" })
+        <div>
+            <input type="submit" value="Add" />
+        </div>        
+     </div>
+}
+ </div>
+

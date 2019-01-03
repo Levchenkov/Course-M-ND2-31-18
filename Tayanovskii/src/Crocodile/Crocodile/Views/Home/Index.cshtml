@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Crocodile";
+}
+<div style="display: flex; justify-content: space-around">
+    <form id="connect-form" action="#" style="margin-top: 50px">
+        Enter your name:
+        <input type="text" id="name">
+        <button id="connect-button" type="submit">Connect</button>
+    </form>
+    <div>
+        <canvas id="myCanvas" width="500" height="400"
+                style="background-color: #eee; border: 1px solid #ccc; margin-top: 10px; margin-bottom: 10px; display: none">
+        </canvas>
+    </div>
+    <div id="chat" style="display: none">
+        <div id="SecretWord" style="display: none"></div>
+        <form id="send-form" action="#" style="margin-top: 30px; width: 250px">
+            <input type="text" id="message-textbox">
+            <button id="send-button" type="submit">Send</button>
+        </form>
+        <ul id="messages-list"></ul>
+    </div>
+
+
+    <script src="~/js/signalr.min.js"></script>
+    <script src="~/js/crocodile.js"></script>
+</div> 

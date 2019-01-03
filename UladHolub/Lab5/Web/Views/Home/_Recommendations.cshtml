@@ -1,0 +1,40 @@
+﻿<div class="container mt-2 rounded bg-white text-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col p-0 ">
+                <strong>Recommendations </strong>
+                <b class="text-dark">•</b>
+                <a class="text-dark" href="#"> Update</a>
+                <b class="text-dark">•</b>
+                <a class="text-dark" href="#"> All</a>
+            </div>
+        </div>
+        @{
+            string[] array = new string[] { "Walter Sobchak", "Donny", "Jesus Quintana", "Jackie Treehorn", "The Stranger" };
+            for (int i = 0; i < array.Length; i++)
+            {
+                <div class="row">
+                    <div class="col p-0">
+                        <small>
+                            <span class="fa fa-address-card navbar-dark"></span>
+                            In readable <a class="text-dark" href="#"> Jeffrey "Big" Lebowski</a>
+                        </small>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 p-0 ">
+                        <div class="mt-2 mr-1 pb-1">
+                            <img src="@String.Format("/Content/Images/img{0}.jpg", i+1)" class="img-thumbnail rounded-circle border-0" alt="Cinque Terre">
+                        </div>
+                    </div>
+                    <div class="col-md-9 p-0 ">
+                        <p class="m-0 mt-2"><strong>@array[i]</strong></p>
+                        <span class="badge badge-pill badge-dark"><a class="nav-link text-light" href="#"> Subscribe</a></span>
+                    </div>
+                </div>
+                <hr class="m-0" />
+            }
+        }
+    </div>
+</div>
+

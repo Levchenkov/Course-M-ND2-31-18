@@ -1,0 +1,48 @@
+﻿@model BusinessLogicLayer.DataModel.CommentDataModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <br />
+    @if (ViewBag.CurrentStudent != null)
+    {
+        <h4>Текущий пользователь: @ViewBag.CurrentStudent.FirstName  @ViewBag.CurrentStudent.LastName</h4>
+    }
+    <br />
+    <h2>Новая запись</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            <div class="form-group" style="vertical-align:central">
+                @Html.LabelFor(model => model.PostId, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DisplayFor(model => model.PostId)
+                </div>
+            </div>
+            <div class="form-group" style="vertical-align:central">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.LabelFor(model => model.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Content, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Content, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <hr />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Добавить" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    }
+    <hr />
+    <div>
+        <h4>@Html.ActionLink("Назад к списку сообщений", "Details", new { area = "", controller = "Posts", Id = Model.PostId }, new { @class = "btn btn-info" })</h4>
+    </div>
+</div>

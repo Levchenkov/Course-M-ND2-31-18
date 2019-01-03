@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab4.Data.Contracts\Lab4.Data.Contracts.csproj" />
+    <ProjectReference Include="..\Lab4.Data.Repositories\Lab4.Data.Repositories.csproj" />
+    <ProjectReference Include="..\Lab4.Domain.Contracts\Lab4.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\Lab4.Domain.Services\Lab4.Domain.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore.sqlserver\2.0.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BusinessLogicLayer.DataModel.StudentDataModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+@if (ViewBag.CurrentStudent != null)
+{
+    <h4>Текущий пользователь: @ViewBag.CurrentStudent.FirstName  @ViewBag.CurrentStudent.LastName</h4>
+}
+<br />
+<div class="row">
+    <div class="col-md-pull-4">
+        <h2>Список студентов</h2><br>
+        <table class="table table-hover table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Id студента</th>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                </tr>
+            </thead>
+            @{
+                foreach (var item in Model)
+                {
+                    <tbody>
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.FirstName</td>
+                            <td>@item.LastName</td>
+                            @if (ViewBag.CurrentStudent.Id == item.Id)
+                            {
+                                <td>
+                                    @Html.ActionLink("Изменить", "Edit", new { id = item.Id, userId = ViewBag.CurrentStudent.Id })
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Смотреть", "Details", new { id = item.Id, userId = ViewBag.CurrentStudent.Id })
+                                </td>
+                                <td>
+                                    @Html.ActionLink("Удалить", "Delete", new { id = item.Id, userId = ViewBag.CurrentStudent.Id })
+                                </td>
+                            }
+                            else
+                            {
+                                <td>Изменить</td>
+                                <td>
+                                    @Html.ActionLink("Смотреть", "Details", new { id = item.Id, userId = ViewBag.CurrentStudent.Id })
+                                </td>
+                                <td>Удалить</td>
+                            }
+                        </tr>
+                    </tbody>
+                }
+            }
+        </table>
+        @if (ViewBag.CurrentStudent.Id != null)
+        {
+            <div>
+                <h4>
+                    @Html.ActionLink("Регистрация нового студента", "Create", new { userId = ViewBag.CurrentStudent.Id }, new { @class = "btn btn-info" })
+                </h4>
+            </div>
+        }
+    </div>
+</div>
+

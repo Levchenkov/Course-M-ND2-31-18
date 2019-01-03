@@ -1,0 +1,35 @@
+﻿@model Domain.Contracts.ViewModel.UserViewModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col col-md-auto ">
+            <div class="container mt-3 rounded justify-content-md-center bg-white text-dark">
+                <h2>Register</h2>
+
+                @Html.ValidationMessage("", new { @class = "text-danger" })
+
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken();
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.Email)
+                        @Html.TextBoxFor(x => x.Email, new { required = "required", @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.UserName)
+                        @Html.TextBoxFor(x => x.UserName, new { required = "required", @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.Password)
+                        @Html.PasswordFor(x => x.Password, new { required = "required", @class = "form-control" })
+                    </div>
+                    <button class="btn btn-dark mb-2" type="submit">Register</button>
+                }
+            </div>
+        </div>
+    </div>
+</div>

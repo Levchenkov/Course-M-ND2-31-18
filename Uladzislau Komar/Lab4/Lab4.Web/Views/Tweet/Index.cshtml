@@ -1,0 +1,79 @@
+﻿@using Lab4.Domain.Contracts.ViewModels
+@model IEnumerable<Lab4.Domain.Contracts.ViewModels.TweetViewModel>
+
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4 col-sm-6" id="Profile" style="border: 3px solid skyblue">
+			@if (User.Identity.IsAuthenticated)
+			{
+				<div class="container-fluid">
+					<div class="row">
+						<img src="~/images/750.gif" width="60" height="40" alt="avatar" />
+						<strong>@User.Identity.Name</strong>
+						<a asp-area="" asp-controller="Account" asp-action="LogOut">(Log out)</a>
+					</div>
+					<div class="row">
+						<div class="btn-group" role="group">
+							<button type="button" class="btn btn-primary">Tweets<span class="badge">@Model.Count()</span></button>
+							<button type="button" class="btn btn-primary">Reading</button>
+							<button type="button" class="btn btn-primary">Read you</button>
+						</div>
+					</div>
+				</div>
+			}
+			else
+			{
+				<div>
+					<a asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+					or
+					<a asp-area="" asp-controller="Account" asp-action="Register">Register</a>
+				</div>
+			}
+		</div>
+		@if (User.Identity.IsAuthenticated)
+		{
+
+			<partial name="Create" model="new TweetViewModel()" />
+		}
+		else
+		{
+			<div class="col-md-8">
+				<a asp-area="" asp-controller="Account" asp-action="Login">Login</a> to create tweets
+			</div>
+		}
+	</div>
+	<div class="row">
+		<div class="col-md-4" id="Info">
+			Lab4-5-6 Uladzislau Komar
+		</div>
+		<div class="col-md-8 " id="tweetList">
+			@foreach (var item in Model)
+			{
+				<form>
+					<div class="container-fluid" style="border: 1px solid skyblue">
+						<div class="row" id="displayname">
+							<div class="col-md-2" id="name">
+								@Html.DisplayFor(modelItem => item.Author.UserName)
+							</div>
+							<div class="col-md-2">tweets at </div>
+							<div class="col-md-4" id="created">
+								@Html.DisplayFor(modelItem => item.Created)
+							</div>
+						</div>
+						<div class="row" id="content">
+							@Html.DisplayFor(modelItem => item.Content)
+						</div>
+					</div>
+				</form>
+			}
+		</div>
+	</div>
+</div>
+<script src="~/js/signalr.js"></script>
+<script src="~/js/tweets.js"></script>
+

@@ -1,0 +1,22 @@
+﻿@model Web.Models.HomeIndexViewModel
+
+@foreach (var post in Model.Posts)
+{
+<div class="container mt-2 rounded bg-white text-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 p-0 ">
+                <div class="mt-2 mr-1">
+                    <img src="~/Content/Images/img0.jpg" class="img-thumbnail rounded-circle border-0 float-left" alt="Cinque Terre">
+                </div>
+            </div>
+            <div class="col-md-11 p-0">
+                <div class="mt-2">
+                    <strong>@post.User.UserName</strong> <small>added @post.Date.ToShortDateString()</small>
+                </div>
+                <div>@post.Content</div>
+            </div>
+        </div>
+    </div>
+</div>
+}
