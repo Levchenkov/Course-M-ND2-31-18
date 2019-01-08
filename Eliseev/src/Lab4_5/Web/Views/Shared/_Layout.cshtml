@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        submitForms = function () {
+            document.getElementById("dataForm").submit();
+        }
+    </script>
+    @RenderSection("scripts", required: false)
+
+</head>
+    <body class="bg-light @(Request.IsAuthenticated ? "pt-md-4" : "pt-md-0 pb-md-0 h-100" )">
+        @if (Request.IsAuthenticated)
+        {
+            <div class="pt-md-3">
+                <nav class="navbar navbar-expand-md fixed-top bg-white p-0 row" role="navigation">
+                    <div class="container p-0">
+                        @*<a class="navbar-brand text-primary" href="/Home/Index">Tweeter</a>*@
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#praay">
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="navbar-collapse collapse" id="praay">
+                            <ul class="navbar-nav nav-tabs border-primary col-md-5">
+                                <li class="nav-item active font-weight-bold col-md-3 text-center pl-md-0 pr-md-0">
+                                    <a class="nav-link text-muted" href="/Home/Index"><span class="fa fa-home navbar-dark pr-1"></span>Главная</a>
+                                </li>
+                                <li class="nav-item font-weight-bold col-md-5 text-center pl-md-0 pr-md-0">
+                                    <a class="nav-link text-muted" href="#"><span class="fa fa-bell-o navbar-dark pr-1"></span>Уведомления</a>
+                                </li>
+                                <li class="nav-item font-weight-bold col-md-5 text-center pl-md-0 pr-md-0">
+                                    <a class="nav-link text-muted" href="#"><span class="fa fa-envelope-o navbar-dark pr-1"></span>Сообщения</a>
+                                </li>
+                            </ul>
+
+                            <div class="d-inline-block pr-5 pl-5">
+                                <a href="/Home/Index" class="navbar-brand d-inline-block text-primary mx-auto d-block text-center order-md-1">
+                                    <span class="fa fa-themeisle navbar-dark"></span>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4 pl-md-0 pr-md-0">
+                                <form class="form-inline">
+                                    <div class="input-group w-100" style="border-radius:24px">
+                                        <input class="form-control col-md-10 bg-light rounded-left" type="search" placeholder="Поиск в Твиттере" />
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn btn-outline-secondary bg-light border border-left-0 rounded-right">
+                                                <span class="fa fa-search navbar-dark"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="bg-light  rounded-circle text-center" style="width:40px; height:40px">
+                                s
+                            </div>
+
+                            @using (Html.BeginForm("Add", "Tweet", FormMethod.Post, new { @id = "submitForm" }))
+                            {
+                                <div class="form-group pull-right ml-md-4 pt-md-3">
+                                    <input type="button" value="Твитнуть" onclick="submitForms()" class="btn-primary btn d-inline-block rounded-left rounded-right text-white font-weight-bold" />
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        }
+
+        <div class="@(Request.IsAuthenticated?"container":"bg-white") body-content">
+            @RenderBody()
+            <footer class="fixed-bottom bg-white">
+                <ul class="modal-footer mb-md-0">
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">О нас</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Справочный центр</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Блог</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Условия</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Политика конфиденциальности</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Файлы cookie</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">О рекламе</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Бренд</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Приложения</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Реклама в Твиттере</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Компаниям</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Разработчикам</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted">Настройки</a></small></li>
+                    <li class="list-inline-item"><small><a href="#" class="text-muted"><span>&copy;</span>Твиттер, 2018</a></small></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

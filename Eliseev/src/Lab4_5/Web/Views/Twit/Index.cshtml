@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Domain.Contracts.ViewModels.TwitViewModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4 mt-md-5" style="height:470px">
+        <div class="bg-primary h-25"></div>
+        <div class="bg-white h-25">
+            <div class=" text-md-center mb-md-3 pt-md-2">UserName</div>
+            <div>
+                <div class="pull-left w-25 ml-md-4 text-muted"><small>Твиты</small><div class="font-weight-bold text-primary">5</div></div>
+                <div class="pull-left w-25 text-muted"><small>Читаемые</small><div class="font-weight-bold text-primary">29</div></div>
+                <div class="pull-right w-25 mr-md-4 text-muted"><small>Читатели</small><div class="font-weight-bold text-primary">5</div></div>
+            </div>
+        </div>
+        <div class="bg-white mt-md-3 pl-md-3 pt-md-3 pr-md-3">
+            <div class="pull-left font-weight-bold">Кого читать</div>
+            <a class="d-block pull-left pl-md-2 pr-md-2" href="#"><small><span class="mr-md-2">&bull;</span>Обновить</small></a>
+            <a class="d-block" href="#"><small><span class="mr-md-1">&bull;</span>Все</small></a>
+            <div class="mt-md-2">
+                <div class="rounded-circle bg-light mr-0 pull-left text-center" style="width:50px;height:50px">foto</div>
+                <div class="text-muted"><small class="ml-md-3">В читаемых у <a href="#" class="text-primary">Antigravity</a></small></div>
+                <div><span class="ml-md-3"><small class="font-weight-bold">Fran Sanchez Palladino</small></span></div>
+                <div class="btn btn-wight border-primary rounded-left rounded-right ml-md-3"><span class="text-primary"><small>Читать</small></span></div>
+                <hr class="pb-2 mt-2 mb-0" />
+            </div>
+            <div>
+                <div class="rounded-circle bg-light mr-0 pull-left text-center" style="width:50px;height:50px">foto</div>
+                <div class="text-muted"><small class="ml-md-3">В читаемых у <a href="#" class="text-primary">Antigravity</a></small></div>
+                <div><span class="ml-md-3"><small class="font-weight-bold">Vadim</small></span></div>
+                <div class="btn btn-wight border-primary rounded-left rounded-right ml-md-3"><span class="text-primary"><small>Читать</small></span></div>
+                <hr class="pb-2 mt-2 mb-0" />
+            </div>
+        </div>
+        <div class="bg-white mt-md-3 pl-md-3 pt-md-3 pr-md-3">
+            <div>
+                <a href="#" class="font-weight-bold">#TransDayOfRemembrance</a>
+                <div><small class="text-muted">Твитов: 23,9 тыс.</small></div>
+            </div>
+            <div class="mt-md-2">
+                <a href="#" class="font-weight-bold">#IvankasEmails</a>
+                <div><small class="text-muted">Твитов: 11,7 тыс.</small></div>
+            </div>
+            <div class="mt-md-2">
+                <a href="#" class="font-weight-bold">#TheLEGOMovie2</a>
+                <div><small class="text-muted">Твитов: 3659</small></div>
+            </div>
+            <div class="mt-md-2 pb-md-1">
+                <a href="#" class="font-weight-bold">#NationalChildDay</a>
+                <div><small class="text-muted">Твитов: 1894</small></div>
+            </div>
+        </div>
+
+        <div class="bg-white mt-md-3  pt-md-3  text-muted">
+            <div class="pl-md-3 pr-md-3">
+                <span><small>&copy;</small></span>
+                <small>
+                    Twitter,2018 О нас Справочный Центр Условия Политика конфиденциальности Файлы cookie
+                    О рекламе Бренд Блог Состояния Приложения Вакансии
+                </small>
+            </div>
+            <hr class="mt-2 mb-0 pb-2" />
+            <div class="text-center">
+                <a href="#" d-inline-block"><small>Рекламируйте вместе с твиттером</small></a>
+            </div>
+        </div>
+        <div class="bg-primary rounded-circle position-relative" style="border:solid 3px white; width:75px; height:75px; bottom:845px; right:-10px">
+            <span class="fa fa-2x fa-camera-retro text-white  position-relative" style="bottom:-18px; right:-19px"></span>
+        </div>
+    </div>
+    <div class="col-md-8 mt-md-5 p-0">
+        <div class="col-md-12">@Html.Partial("Add", (Domain.Contracts.ViewModels.TwitViewModel)ViewBag.NewTwit)</div>
+        <div class="col-md-12">
+            @foreach (Domain.Contracts.ViewModels.TwitViewModel twit in Model)
+            {
+                <div class="w-100 bg-white pt-md-2 pb-md-2 mb-md-3">
+                    <div class="rounded-circle bg-light pull-left ml-md-3 mr-md-3" style="height:40px; width:40px"></div>
+                    <div>
+                        <div class="pull-left mr-md-3 font-weight-bold">@Html.DisplayFor(t => twit.User.UserName)</div>
+                        <div>@Html.DisplayFor(t => twit.Created.Day).@Html.DisplayFor(t => twit.Created.Month).@Html.DisplayFor(t => twit.Created.Year)</div>
+                    </div>
+                    <div class="ml-md-5 pl-md-4 pr-md-4">@Html.DisplayFor(t => twit.Content)</div>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>

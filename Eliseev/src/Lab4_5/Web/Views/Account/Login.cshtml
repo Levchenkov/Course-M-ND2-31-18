@@ -1,0 +1,42 @@
+﻿@model Web.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<div class="row justify-content-center" style="height:100vh">
+    <div class="col-md-5">
+        <div class="col-md-12 text-center pt-md-5"><span class="fa fa-2x fa-themeisle text-primary"></span></div>
+        <div class="col-md-12 text-center pt-md-4 pb-md-4 h3">Войти в Твиттер</div>
+        <section class="text-center" id="loginForm">
+            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    <div class="col-md-12">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control col-md-12 bg-light rounded-left rounded-right", @placeholder = "Введите адрес электронной почты" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-12">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control col-md-12 bg-light rounded-left rounded-right", @placeholder = "Пароль" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-12">
+                        <input type="submit" value="Войти" class="btn btn-primary col-md-12 rounded-left rounded-right font-weight-bold" />
+                    </div>
+                </div>
+                <p>
+                    @Html.ActionLink("Зарегистрироваться в Твиттере", "Register","Account")
+                </p>
+            }
+        </section>
+    </div>
+</div>
+
