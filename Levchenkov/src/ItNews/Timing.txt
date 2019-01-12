@@ -1,0 +1,8 @@
+2h:
+base commit: 276c7a67
+Solution structure
+EntityFramework nuget
+Identity nuget
+DbContext
+Data models
+Migrations

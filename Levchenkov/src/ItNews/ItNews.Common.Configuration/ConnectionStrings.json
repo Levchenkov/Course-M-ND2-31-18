@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "ApplicationDbContext": "Server=(localdb)\\mssqllocaldb;Database=ItNewsDatabase;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}
