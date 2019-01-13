@@ -17,41 +17,7 @@ namespace Web.Hubs
 {
     public class TwitHub : Hub
     {
-        //[HubMethodName("Send")]
-        //public static void NotifyCurrentUserInformationToAllClients()
-        //{
-
-        //    //var twitInfo = new JavaScriptSerializer().Deserialize<TwitInfo>(content);
-
-
-        //    //var twit = new TwitViewModel()
-        //    //{
-        //    //    Id = Guid.NewGuid().ToString(),
-        //    //    Content = twitInfo.Content,
-        //    //    Created = DateTime.Now,
-        //    //    UserId = twitInfo.UserId
-        //    //};
-        //    //twitService.CreateAsynk(twit);
-
-        //    IHubContext context = GlobalHost.ConnectionManager.GetHubContext<TwitHub>();
-            
-        //    context.Clients.All.addNewTwit("Refresh");
-
-        //}
-
-
-
-
-
-
-
-
-        //private ITwitService twitService;
-
-        //public TwitHub(ITwitService twitService)
-        //{
-        //    this.twitService = twitService;
-        //}
+        
 
     }
 }
