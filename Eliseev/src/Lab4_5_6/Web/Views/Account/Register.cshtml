@@ -1,0 +1,46 @@
+﻿@model Web.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<div class="row justify-content-center" style="height:100vh">
+    <div class="col-md-5 text-center">
+        <div class="col-md-12 text-center pt-md-5"><span class="fa fa-2x fa-themeisle text-primary"></span></div>
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            <h4 class="text-center pt-md-4 pb-md-4">Зарегистрироваться в Твиттере.</h4>
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-12">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control bg-light col-md-12 rounded-left rounded-right", @placeholder = "Введите адресс электронной почты" })
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-12">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control bg-light col-md-12 rounded-left rounded-right", @placeholder = "Пароль" })
+                </div>
+            </div>
+            <div class="form-group">
+                @*@Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })*@
+                <div class="col-md-12">
+                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control bg-light col-md-12 rounded-left rounded-right", @placeholder = "Подтверждение пароля" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-12">
+                    <input type="submit" class="btn btn-primary col-md-12 text-white rounded-left rounded-right" value="Зарегистрироваться" />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
