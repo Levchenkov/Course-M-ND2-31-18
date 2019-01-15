@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ItNews.Common.Contracts\ItNews.Common.Contracts.csproj" />
+    <ProjectReference Include="..\ItNews.Data.Contracts\ItNews.Data.Contracts.csproj" />
+    <ProjectReference Include="..\ItNews.Domain.Contracts\ItNews.Domain.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

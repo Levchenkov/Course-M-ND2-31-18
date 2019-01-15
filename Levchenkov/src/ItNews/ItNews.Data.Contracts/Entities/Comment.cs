@@ -1,6 +1,8 @@
-﻿namespace ItNews.Data.Contracts
+﻿using System;
+
+namespace ItNews.Data.Contracts.Entities
 {
-    public class Profile
+    public class Comment
     {
         public long Id
         {
@@ -8,31 +10,25 @@
             set;
         }
 
-        public string Nickname
+        public long PostId
         {
             get;
             set;
         }
 
-        public int Rating
+        public DateTime Created
         {
             get;
             set;
         }
 
-        public string FirstName
+        public long AuthorProfileId
         {
             get;
             set;
         }
 
-        public string LastName
-        {
-            get;
-            set;
-        }
-
-        public string UserId
+        public string Content
         {
             get;
             set;

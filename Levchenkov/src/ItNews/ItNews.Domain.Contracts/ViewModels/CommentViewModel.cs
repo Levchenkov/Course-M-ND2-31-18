@@ -1,16 +1,10 @@
 ﻿using System;
 
-namespace ItNews.Data.Contracts
+namespace ItNews.Domain.Contracts.ViewModels
 {
-    public class Comment
+    public class CommentViewModel
     {
         public long Id
-        {
-            get;
-            set;
-        }
-
-        public long PostId
         {
             get;
             set;
@@ -22,13 +16,19 @@ namespace ItNews.Data.Contracts
             set;
         }
 
-        public long AuthorProfileId
+        public ProfileViewModel Author
         {
             get;
             set;
         }
 
         public string Content
+        {
+            get;
+            set;
+        }
+
+        public int Likes
         {
             get;
             set;

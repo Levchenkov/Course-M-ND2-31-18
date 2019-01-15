@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ItNews.Data.Contracts
+namespace ItNews.Data.Contracts.Entities
 {
     public class Post
     {

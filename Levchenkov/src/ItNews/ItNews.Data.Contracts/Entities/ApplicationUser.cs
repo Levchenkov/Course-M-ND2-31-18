@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace ItNews.Data.Contracts
+namespace ItNews.Data.Contracts.Entities
 {
     public class ApplicationUser : IdentityUser
     {

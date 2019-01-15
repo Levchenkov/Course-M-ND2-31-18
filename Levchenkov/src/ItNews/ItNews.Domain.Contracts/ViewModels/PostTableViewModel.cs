@@ -1,6 +1,8 @@
-﻿namespace ItNews.Data.Contracts
+﻿using System;
+
+namespace ItNews.Domain.Contracts.ViewModels
 {
-    public class Rating
+    public class PostTableViewModel
     {
         public long Id
         {
@@ -8,23 +10,22 @@
             set;
         }
 
-        public long PostId
+        public DateTime Updated
         {
             get;
             set;
         }
 
-        public int Value
+        public PostState PostState
         {
             get;
             set;
         }
 
-        public long AuthorProfileId
+        public string Title
         {
             get;
             set;
         }
-
     }
 }

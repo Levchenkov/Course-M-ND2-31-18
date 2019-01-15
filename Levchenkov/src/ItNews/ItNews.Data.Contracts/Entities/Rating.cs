@@ -1,6 +1,6 @@
-﻿namespace ItNews.Data.Contracts
+﻿namespace ItNews.Data.Contracts.Entities
 {
-    public class Like
+    public class Rating
     {
         public long Id
         {
@@ -8,7 +8,13 @@
             set;
         }
 
-        public long CommentId
+        public long PostId
+        {
+            get;
+            set;
+        }
+
+        public int Value
         {
             get;
             set;
@@ -19,5 +25,6 @@
             get;
             set;
         }
+
     }
 }

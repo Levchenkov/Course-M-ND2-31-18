@@ -37,7 +37,10 @@ namespace ItNews.Web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            services.AddApplicationDbContext(Configuration);
+            services
+                .AddApplicationDbContext(Configuration)
+                .AddDataDependencies()
+                .AddDomainDependencies();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

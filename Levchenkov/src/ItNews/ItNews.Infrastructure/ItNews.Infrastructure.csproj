@@ -5,12 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ItNews.Common.Contracts\ItNews.Common.Contracts.csproj" />
     <ProjectReference Include="..\ItNews.Data.EntityFramework\ItNews.Data.EntityFramework.csproj" />
+    <ProjectReference Include="..\ItNews.Domain.Contracts\ItNews.Domain.Contracts.csproj" />
+    <ProjectReference Include="..\ItNews.Domain.Services\ItNews.Domain.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,14 +1,14 @@
-﻿namespace ItNews.Data.Contracts
+﻿namespace ItNews.Data.Contracts.Entities
 {
-    public class PostTag
+    public class Tag
     {
-        public long PostId
+        public long Id
         {
             get;
             set;
         }
 
-        public long TagId
+        public string Value
         {
             get;
             set;

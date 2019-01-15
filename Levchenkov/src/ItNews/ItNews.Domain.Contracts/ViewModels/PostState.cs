@@ -1,4 +1,4 @@
-﻿namespace ItNews.Data.Contracts
+﻿namespace ItNews.Domain.Contracts.ViewModels
 {
     public enum PostState
     {

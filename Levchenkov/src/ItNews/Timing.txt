@@ -6,3 +6,11 @@ Identity nuget
 DbContext
 Data models
 Migrations
+
+2h:
+base commit: 22cc6f689
+DbScopeFactory
+Domain services
+View Models
+PostController
+Post Views

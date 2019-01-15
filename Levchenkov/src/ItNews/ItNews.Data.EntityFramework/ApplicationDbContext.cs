@@ -1,4 +1,4 @@
-﻿using ItNews.Data.Contracts;
+﻿using ItNews.Data.Contracts.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 

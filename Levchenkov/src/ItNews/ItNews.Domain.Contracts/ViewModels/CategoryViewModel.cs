@@ -1,6 +1,6 @@
-﻿namespace ItNews.Data.Contracts
+﻿namespace ItNews.Domain.Contracts.ViewModels
 {
-    public class Tag
+    public class CategoryViewModel
     {
         public long Id
         {
