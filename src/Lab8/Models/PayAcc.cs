@@ -3,10 +3,8 @@ using Lab8.DataService;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Globalization;
 using System.Linq;
 using System.Web;
-using FluentValidation;
 
 namespace Lab8.Models
 {
@@ -36,36 +34,27 @@ namespace Lab8.Models
         public string PostCode { get; set; }
         //Email
         [Display(Name = "Электронный ящик", Description = "Укажите электронный ящик")]
-        [DataType(DataType.EmailAddress, ErrorMessage = "Ошибка в написании электронного ящика")]
+        //[DataType(DataType.EmailAddress, ErrorMessage = "Ошибка в написании электронного ящика")]
         public string Email { get; set; }
         //Amount
-        private decimal amount;
         [Display(Name = "Сумма", Description = "Укажите сумму")]
-        [CustomValidation(typeof(DL), "ValidateAmount")]
-        public decimal Amount
-        {
-            get { return amount; }
-            set
-            {
-                //NumberFormatInfo nfi = new CultureInfo("ru-RU", false).NumberFormat;
-                amount = value;
-            }
-        }
+        public decimal Amount { get; set; }
+
         //Description
         [Display(Name = "Описание", Description = "Укажите описание")]
         public string Description { get; set; }
         //CreditCardNumber
         [Display(Name = "Номер карты", Description = "Укажите номер карты")]
-        [CustomValidation(typeof(DL), "ValidateCreditCardNumber")]
+        //[CustomValidation(typeof(DL), "ValidateCreditCardNumber")]
         public string CreditCardNumber { get; set; }
         //ExpirationMonth
-        [RegularExpression(@"[0-9]+", ErrorMessage = "{0}: Укажите цифры!")]
+        //[RegularExpression(@"[0-9]+", ErrorMessage = "{0}: Укажите цифры!")]
         [Display(Name = "Месяц", Description = "Укажите месяц")]
-        [CustomValidation(typeof(DL), "ValidateMonth")]
+        //[CustomValidation(typeof(DL), "ValidateMonth")]
         public string ExpirationMonth { get; set; }
         //ExpirationYear
         [Display(Name = "Год", Description = "Укажите год")]
-        [CustomValidation(typeof(DL), "ValidateYear")]
+        //[CustomValidation(typeof(DL), "ValidateYear")]
         public string ExpirationYear { get; set; }
         //SecurityCode
         [Display(Name = "Код", Description = "Укажите код")]

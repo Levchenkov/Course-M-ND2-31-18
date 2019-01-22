@@ -22,10 +22,10 @@ namespace Lab8.Controllers
                 Email = "email@post.by",
                 Address = "проспект",
                 Country = "Belarus",
-                CreditCardNumber = "4561261212345464",
+                CreditCardNumber = "4561261212345467",
                 Description = "Описание",
-                ExpirationMonth = "11",
-                ExpirationYear = "2017",
+                ExpirationMonth = "01",
+                ExpirationYear = "2019",
                 PostCode = "12345",
                 SecurityCode = "189"
             };
@@ -37,7 +37,7 @@ namespace Lab8.Controllers
         {
             if (ModelState.IsValid)
             {
-                ModelState.AddModelError("", "Выполенено");
+                ModelState.AddModelError("", "Платеж выполнен");
                 return View(model);
             }
             ModelState.AddModelError("", "Ошибка в данных");
