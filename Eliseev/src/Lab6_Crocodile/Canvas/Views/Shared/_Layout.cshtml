@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <style>
+        canvas {
+            position: relative;
+            background-color: #ffd800;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+
+        $(function () {
+
+            $('#drawingpad').hide()
+            $('#chatBody').hide();
+            $('#loginBlock').show();
+            $('#roomsBlock').hide();
+            $('#playerList').hide();
+
+            var drawGame = {
+                // указывает, происходит ли отрисовка
+                isDrawing: false,
+                // начальная точка следующей линии
+                startX: 0,
+                startY: 0,
+            };
+            // модель линий
+            var data = {
+                startX: 0,
+                startY: 0,
+                endX: 0,
+                endY: 0
+            };
+            // контекст элемента canvas
+            var canvas = document.getElementById('drawingpad');
+            var ctx = canvas.getContext('2d');
+
+            // Ссылка на автоматически-сгенерированный прокси хаба
+            var chat = $.connection.drawHub;
+            // Объявление функции, которая хаб вызывает при получении сообщений
+            chat.client.addLine = function (data) {
+
+                // Добавление линий
+                drawLine(ctx, data.startX, data.startY, data.endX, data.endY, 1);
+            };
+
+            //-------
+            chat.client.showExistedRooms = function (rooms, player) {
+                if (player != "") {
+                    $('#hdId').val(player.ConnectionId);
+                    $('#playername').val(player.Name);
+                }                
+                if (rooms.length == 0) {
+                    $('#roomList').html("There are no one play room. Create your own one!");
+                } else {
+                    $('#roomList').html('')
+                    for (i = 0; i < rooms.length; i++) {
+                        $('#roomList')    
+                           .append('<hr/><div>Room #' + (i + 1) + ' There are ' + rooms[i].Players.length + ' players  <input name="' + rooms[i].Id + '" id="joinRoom" type="button" value="Join"></div>')
+                    }
+                }
+            }
+
+            chat.client.showTask = function (word,roomId,player) {
+                $('#task').html("You are an artist. express " + word);
+                $("#roomId").val(roomId);
+                $('#role').val(player.Role);
+                $('#playerList').append('<div><b>' + player.Name + '</b> is ' + player.Role + '</div><hr/>')
+            }
+
+            chat.client.showNewTask = function (word, roomId, player) {
+                $('#task').html("You are an artist. express " + word);
+                $("#roomId").val(roomId);
+                $('#role').val(player.Role);
+                $('#inputForm').hide();
+                alert("previous artist has left the game. you are a new one");
+            }
+
+            chat.client.joinGame = function (targetRoom,roomId) {
+                $('#roomsBlock').hide();
+                $('#drawingpad').show()
+                $('#chatBody').show();
+                $('#playerList').show();
+                $('#roomId').val(roomId);                
+                updatePlayers(targetRoom.Players);
+            }
+
+            chat.client.newPlayerEntered = function (newPlayer) {
+                $('#playerList').append('<div><b>' + newPlayer.Name + '</b> is ' + newPlayer.Role + '</div><hr/>')
+            }
+
+            chat.client.updatePlayerList = function (players) {
+                updatePlayers(players);
+            }
+
+            function updatePlayers(players) {
+                $('#playerList').html('').html('<b>Plair List</b>');                
+                for (i = 0; i < players.length; i++) {
+                    $('#playerList').append('<div><b>' + players[i].Name + '</b> is ' + players[i].Role + '</div><hr />')
+                }
+
+            }
+
+            chat.client.congratulation = function (word, roomId, player) {
+                $('#task').html("You are an artist. express " + word);
+                $("#roomId").val(roomId);
+                $('#role').val(player.Role);
+                $('#inputForm').hide();
+                alert("Congtatulations! You have won! You are an artist!");
+            }
+
+            chat.client.updateRole = function (role) {
+                $('#task').html('');
+                $('#role').val(role);
+                if (role == 'Player') {
+                    $('#inputForm').show();
+                }
+            }
+
+            chat.client.updateCanvas = function () {
+                ctx.clearRect(0, 0, canvas.width, canvas.height)
+            }
+
+            chat.client.showNewAssumption = function (assumption, player, result) {
+                $('#messageBox').append('<div><b>' + player.Name + ',</b> ' + assumption+' '+ result + '</div>');
+            }
+
+            // Открываем соединение
+            $.connection.hub.start().done(function () {
+                // после открытия соединения устанавливаем обработчики мыши
+                canvas.addEventListener("mousedown", mousedown, false);
+                canvas.addEventListener("mousemove", mousemove, false);
+                canvas.addEventListener("mouseup", mouseup, false);
+
+
+                $('#btnLogin').click(function () {
+                    var name = $('#txtUserName').val();
+                    $('#playerList').hide();
+                    $('#loginBlock').hide();
+                    $('#roomsBlock').show();
+                    chat.server.createPlayer(name);
+                })
+
+                $('#btnNewRoom').click(function () {
+                    $('#roomsBlock').hide();
+                    $('#playerList').show();
+                    $('#drawingpad').show()
+                    $('#chatBody').show();
+                    $('#inputForm').hide();
+                    chat.server.createRoom($('#hdId').val(), $('#playername').val())
+                })
+
+                $('#roomList').on('click','#joinRoom',function () {                    
+                    var roomId = $(this).attr('name');
+                    chat.server.join(roomId, $('#hdId').val());
+                })
+
+                $('#sendmessage').click(function () {                    
+                    chat.server.sendMessage($('#message').val(), $('#hdId').val())
+                    $('#message').val('');
+                    console.log($('#message').val())
+                    console.log($('#hdId').val())
+                })
+
+
+            });
+            // просто рисуем линию
+            function drawLine(ctx, x1, y1, x2, y2, thickness) {
+                    ctx.beginPath();
+                    ctx.moveTo(x1, y1);
+                    ctx.lineTo(x2, y2);
+                    ctx.lineWidth = thickness;
+                    ctx.strokeStyle = "#444";
+                    ctx.stroke();          
+            }
+            // нажите мыши
+            function mousedown(e) {
+
+                // получаем позиции x и y относительно верхнего левого угла элемента canvas
+                var mouseX = e.layerX || 0;
+                var mouseY = e.layerY || 0;
+                drawGame.startX = mouseX;
+                drawGame.startY = mouseY;
+                if ($('#role').val() == 'Artist') {
+                    drawGame.isDrawing = true;
+                } else {
+                    drawGame.isDrawing = false;
+                }
+                
+            };
+
+            // перемещение мыши
+            function mousemove(e) {
+
+                // рисуем линию, если isdrawing==true
+                if (drawGame.isDrawing) {
+
+                    // получаем позиции x и y относительно верхнего левого угла элемента canvas
+                    var mouseX = e.layerX || 0;
+                    var mouseY = e.layerY || 0;
+                    if (!(mouseX == drawGame.startX &&
+                        mouseY == drawGame.startY)) {
+                        drawLine(ctx, drawGame.startX,
+                            drawGame.startY, mouseX, mouseY, 1);
+
+                        data.startX = drawGame.startX;
+                        data.startY = drawGame.startY;
+                        data.endX = mouseX;
+                        data.endY = mouseY;
+                        chat.server.send(data, $('#roomId').val());
+
+                        drawGame.startX = mouseX;
+                        drawGame.startY = mouseY;
+                    }
+                }
+            };
+
+            function mouseup(e) {
+                drawGame.isDrawing = false;
+            }
+        });
+    </script>
+</body>
+</html>

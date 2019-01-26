@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div id="task"></div>
+<div class="main" style="float:left">
+    <canvas id='drawingpad' width='400' height='300'></canvas>
+    <div id="loginBlock">
+        Введите логин:<br />
+        <input id="txtUserName" type="text" />
+        <input id="btnLogin" type="button" value="Войти" />
+    </div>
+    
+    <input id="hdId" type="hidden" />
+    <input id="playername" type="hidden" />
+    <input id="roomId" type="hidden" />
+    <input id="role" type="hidden" />
+    <div id="roomsBlock" style="margin-top:10px;">
+        <input id="btnNewRoom" type="button" value="Create your own play room" />
+        <div id="roomList">
+            <input id="joinRoom" value="Hello world" type="button" />
+        </div>
+    </div>
+</div>
+<div id="playerList" style="float:left; margin-left:20px; margin-right:20px"><b>Plair List</b></div>
+<div id="chatBody" style="float:left">
+    <div id="header"></div>
+    <div id="inputForm">
+        <input type="text" id="message" />
+        <input type="button" id="sendmessage" value="Отправить" />
+    </div>
+    <div id="messageBox"></div>
+</div>
+<div style="clear:both"></div>
